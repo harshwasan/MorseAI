@@ -49,6 +49,46 @@ Takeaway:
 - real ham-radio/QSO decoding is still weak
 - source variance remains high enough that this should be treated as a research system, not a dependable decoder
 
+Latest stored synthetic benchmark summary from `benchmark/results/20260319_074301.json`:
+
+| Synthetic split | CER | Rough `1 - CER` accuracy proxy |
+| --- | ---: | ---: |
+| Slow bucket | 0.7000 | 30.0% |
+| Medium bucket | 0.5236 | 47.6% |
+| Fast bucket | 0.5933 | 40.7% |
+| Edge bucket | 0.7933 | 20.7% |
+| Overall synthetic suite | 0.6232 | 37.7% |
+
+Notes:
+
+- this repo does not currently store a separate exact-match accuracy metric for the synthetic suite
+- the accuracy column above is a rough character-level proxy using `1 - CER`, included only to make the synthetic results easier to interpret at a glance
+- the synthetic benchmark is still useful for relative progress tracking, but the real-audio holdout remains the more important measure
+
+Earlier synthetic-only snapshots from `DEVLOG.md`:
+
+- 15 WPM: CER `0.011`
+- 20 WPM: CER `0.10`
+- 5 WPM: CER `0.11` after the Farnsworth timing fix
+- best synthetic validation CER during training: `0.0554`
+
+Those synthetic-only numbers show the model can fit cleaner and more controlled Morse distributions much better than it handles real radio audio.
+
+## What It Is Good At
+
+- showing end-to-end ML pipeline ownership
+- combining DSP bootstrapping with neural transcription
+- handling data generation, labeling, benchmarking, training, and inference in one repo
+- surfacing benchmark artifacts instead of relying on hand-wavy claims
+- documenting mistakes and corrections, including holdout contamination fixes in `DEVLOG.md`
+
+## What It Is Bad At
+
+- robust real-world Morse transcription across diverse unseen recordings
+- low-error decoding on noisy QSO-style audio
+- stable generalization across sources with very different timing and recording characteristics
+- production deployment readiness
+
 ## Main Problems And Limitations
 
 - real-data transcription quality is still not strong enough for serious operational use
