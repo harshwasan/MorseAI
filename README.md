@@ -79,6 +79,23 @@ Takeaway:
 - results, logs, and benchmark artifacts are included to support the claims
 - it demonstrates practical ML engineering judgment, not just model training
 
+## AI-Assisted Development Note
+
+This project was built with AI assistance.
+
+Part of the point of the project was to test a practical question:
+
+> can a developer with strong general engineering skills, but limited starting domain expertise in Morse decoding, use AI effectively enough to build a useful research pipeline and get non-trivial results?
+
+My answer from this project is:
+
+- AI can accelerate exploration, implementation speed, and iteration
+- AI can help bridge gaps in unfamiliar domains
+- useful results are possible without deep initial domain expertise
+- but domain understanding still becomes necessary to evaluate data quality, interpret benchmark results, catch contamination issues, and make sound decisions about what the model is actually learning
+
+So the value here is not "AI produced a finished solution." The value is that AI was used as a tool inside a real engineering loop: building, checking, debugging, benchmarking, finding mistakes, and correcting course.
+
 ## Architecture
 
 - Input: 64-band log-mel spectrogram
