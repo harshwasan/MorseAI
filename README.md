@@ -74,20 +74,19 @@ Earlier synthetic-only snapshots from `DEVLOG.md`:
 
 Those synthetic-only numbers show the model can fit cleaner and more controlled Morse distributions much better than it handles real radio audio.
 
-## What It Is Good At
+## Strengths
 
-- showing end-to-end ML pipeline ownership
-- combining DSP bootstrapping with neural transcription
-- handling data generation, labeling, benchmarking, training, and inference in one repo
-- surfacing benchmark artifacts instead of relying on hand-wavy claims
-- documenting mistakes and corrections, including holdout contamination fixes in `DEVLOG.md`
+- combines DSP-assisted labeling with a neural transcription model in one workflow
+- covers the full loop from data generation and labeling through training, benchmarking, and inference
+- keeps benchmark artifacts and development notes in the repo instead of relying only on summary claims
+- documents mistakes and corrections, including holdout contamination fixes in `DEVLOG.md`
 
-## What It Is Bad At
+## Current Weaknesses
 
-- robust real-world Morse transcription across diverse unseen recordings
-- low-error decoding on noisy QSO-style audio
-- stable generalization across sources with very different timing and recording characteristics
-- production deployment readiness
+- real-world Morse transcription quality is still inconsistent on noisy or highly variable recordings
+- QSO-style audio remains materially harder than cleaner or more structured sources
+- generalization still varies by source, timing style, and recording conditions
+- the project is not packaged or hardened for production deployment
 
 ## Main Problems And Limitations
 
