@@ -1,0 +1,23 @@
+kaggle.json
+checkpoints/
+__pycache__/
+benchmark/__pycache__/
+data/__pycache__/
+inference/__pycache__/
+models/__pycache__/
+training/__pycache__/
+utils/__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Large local datasets and generated chunks
+data/**/*.zip
+data/arrl/
+data/arrl_labeled/
+data/arrl_morse_sound/
+data/extra_morse/
+data/kaggle_labeled/
+data/kaggle_mlmv2/audio/
+data/kaggle_morse_sound/
+data/seq_excluded/

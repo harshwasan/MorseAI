@@ -1,0 +1,3142 @@
+{
+  "created_at": "2026-03-25T17:19:12.258936",
+  "strategy": "5 fixed source-level folds; each fold holds out one 15wpm, one 20wpm, and one 30wpm ARRL source.",
+  "arrl_root": "data/arrl_labeled",
+  "wpm_buckets": [
+    "15wpm",
+    "20wpm",
+    "30wpm"
+  ],
+  "num_folds": 5,
+  "total_sources": 15,
+  "total_chunks": 507,
+  "folds": [
+    {
+      "name": "fold_1",
+      "sources": [
+        "150317_30wpm",
+        "170329_15wpm",
+        "260106_20wpm"
+      ],
+      "items": [
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0000.npy",
+          "text": "NOW 30 WPM TEXT IS FROM",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0001.npy",
+          "text": "JULY 2014 QST PAGE",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0002.npy",
+          "text": "85 MIKE SUBMITTED THEIR",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0003.npy",
+          "text": "LOG FROM SJV ALTHOUGH",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0004.npy",
+          "text": "THE TEN GRIDS THEY EACH VISITED",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0005.npy",
+          "text": "ALSO INCLUDED THE LAX AND",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0006.npy",
+          "text": "ORG SECTIONS. THE THIRD",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0007.npy",
+          "text": "OVERALL SPOT IN LIMITED ROVER",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0008.npy",
+          "text": "WAS CLAIMED BY DARRYL,",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0009.npy",
+          "text": "WW7D/R, WITH 476 QSOS",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0010.npy",
+          "text": "ON FOUR BANDS FROM 10",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0011.npy",
+          "text": "WESTERN WASHINGTON GRIDS,",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0012.npy",
+          "text": "BUT TWO THIRDS MIKES MULTIPLIER",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0013.npy",
+          "text": "TOTAL. WITH 85 LOG SUBMISSIONS,",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0014.npy",
+          "text": "THE SOUTHEAST CLAIMED THE THIRD",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0015.npy",
+          "text": "SPOT AMONG THE REGIONS BUT",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0016.npy",
+          "text": "DIDNT YIELD ANY OVERALL",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0017.npy",
+          "text": "CATEGORY TOP SCORERS.",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0018.npy",
+          "text": "NOTABLE, HOWEVER, WERE",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0019.npy",
+          "text": "THE ROVING GRID PIRATES,",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0020.npy",
+          "text": "K8GP/R, OPERATED BY",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0021.npy",
+          "text": "TERRY, W8ZN, AND ANDY,",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0022.npy",
+          "text": "K1RA, WHO CLAIMED THE",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0023.npy",
+          "text": "THIRD SPOT IN THE CLASSIC",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0024.npy",
+          "text": "ROVER CATEGORY OVERALL.",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0025.npy",
+          "text": "ANDY PREPARED AND POSTED",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0026.npy",
+          "text": "QUITE AN INTERESTING TRAVELOGUE",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0027.npy",
+          "text": "OF THEIR EFFORTS ON HIS WEBSITE",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0028.npy",
+          "text": "AT WWW. K1RA. US/ ROVING/",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0029.npy",
+          "text": "K1RA K8GPROVER ARRL",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0030.npy",
+          "text": "JAN VHF SS 2014, INCLUDING",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0031.npy",
+          "text": "SOME VIDEOS. TERRY AND ANDY",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0032.npy",
+          "text": "COMPILED 900 QSOS",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0033.npy",
+          "text": "ACROSS THE 10 BANDS IN",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0034.npy",
+          "text": "THE ROVER VEHICLE OF RICH,",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0035.npy",
+          "text": "N3UW. THEY SUBMITTED THEIR",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0036.npy",
+          "text": "LOG FROM THE VIRGINIA SECTION",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0037.npy",
+          "text": "BUT THE EIGHT GRIDS THEY VISITED",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0038.npy",
+          "text": "ALSO INCLUDED MARYLAND",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0039.npy",
+          "text": "AND PENNSYLVANIA. THE CENTRAL",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0040.npy",
+          "text": "REGION WAS THE SOURCE OF",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0041.npy",
+          "text": "81 LOGS AND HOME TO THE",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0042.npy",
+          "text": "SINGLE OPERATOR, LOW",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0043.npy",
+          "text": "POWER LEADER, BOB, K2DRH.",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0044.npy",
+          "text": "BOB SHARED THE STORY OF",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0045.npy",
+          "text": "THE MANY CHALLENGES HE HAD",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_30wpm_0046.npy",
+          "text": "FOR THIS JANUARYS CONTEST",
+          "source_key": "150317_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0000.npy",
+          "text": "NOW 15 WPM",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0001.npy",
+          "text": "TEXT IS FROM",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0003.npy",
+          "text": "QST PAGE 13",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0007.npy",
+          "text": "AND AS ARRLS",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0009.npy",
+          "text": "ON THE ANSI ACCREDITED",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0013.npy",
+          "text": "OF A WORKING",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0014.npy",
+          "text": "GROUP TO DEVELOP",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0015.npy",
+          "text": "A STANDARD FOR",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0017.npy",
+          "text": "TO USE TO RESOLVE",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0018.npy",
+          "text": "POWER LINE NOISE,",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0019.npy",
+          "text": "AND C63 FORMED",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0021.npy",
+          "text": "TO DEVELOP STANDARDS",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0025.npy",
+          "text": "AS ARRLS REPRESENTATIVE",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0026.npy",
+          "text": "TO THESE GROUPS,",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0027.npy",
+          "text": "ED HELPS TO DEVELOP",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0029.npy",
+          "text": "METHODS TO CONTROL",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0031.npy",
+          "text": "THESE TYPES OF",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0032.npy",
+          "text": "DEVICES. IT WAS",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0033.npy",
+          "text": "A BUSY AND PRODUCTIVE",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0034.npy",
+          "text": "FIRST 6 MONTHS",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170329_15wpm_0035.npy",
+          "text": "END OF 15 WPM",
+          "source_key": "170329_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0000.npy",
+          "text": "TWO GAIN CONTROL KEYS ADJUST",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0004.npy",
+          "text": "COMMA, AND THE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0005.npy",
+          "text": "VOLUME OF THE DECODER,",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0006.npy",
+          "text": "LEFT AND RIGHT ANGLE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0007.npy",
+          "text": "BRACKETS. THE SPACE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0008.npy",
+          "text": "BAR CONTROLS THE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0010.npy",
+          "text": "TO LOST LOCK.",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0011.npy",
+          "text": "WHEN THE DECODER LOSES",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0012.npy",
+          "text": "LOCK DUE TO A FREQUENCY",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0014.npy",
+          "text": "QRM, OR ANY OTHER",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0015.npy",
+          "text": "REASON, IT WILL",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0016.npy",
+          "text": "KEEP TRYING TO DECODE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0017.npy",
+          "text": "BASED ON ITS PREVIOUS",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0018.npy",
+          "text": "ACTIVITY. AT THIS",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0019.npy",
+          "text": "POINT, TELL THE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0021.npy",
+          "text": "TO DROP THE PAST",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0022.npy",
+          "text": "HISTORY AND START",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0023.npy",
+          "text": "FRESH. A PRESS OF",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0024.npy",
+          "text": "THE SPACE BAR TELLS",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0025.npy",
+          "text": "THE DECODER TO DROP",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0027.npy",
+          "text": "START FRESH, AND",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0028.npy",
+          "text": "LOOK FOR A NEW",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0029.npy",
+          "text": "LOCK. THIS STEP",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0030.npy",
+          "text": "IS NECESSARY. BECAUSE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0031.npy",
+          "text": "THE INTERNAL TRANSCEIVER",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0032.npy",
+          "text": "IS BASED ON A DIRECT",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0034.npy",
+          "text": "OFTEN A SIGNAL CAN",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0035.npy",
+          "text": "BE HEARD AT THE CARRIER",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0037.npy",
+          "text": "AND MINUS THE EQUIVALENT",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0038.npy",
+          "text": "OF A BEAT NOTE. IF",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0039.npy",
+          "text": "YOU SELECT THE WRONG",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0041.npy",
+          "text": "RECEIVER WILL BE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0042.npy",
+          "text": "CENTERED AT TWICE THE",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260106_20wpm_0043.npy",
+          "text": "BEAT NOTE FROM",
+          "source_key": "260106_20wpm",
+          "wpm": "20wpm"
+        }
+      ],
+      "wpms": [
+        "15wpm",
+        "20wpm",
+        "30wpm"
+      ],
+      "num_chunks": 102,
+      "num_sources": 3
+    },
+    {
+      "name": "fold_2",
+      "sources": [
+        "130108_30wpm",
+        "170314_20wpm",
+        "190424_15wpm"
+      ],
+      "items": [
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0000.npy",
+          "text": "NOW 30 WPM TEXT IS FROM",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0001.npy",
+          "text": "JULY 2012 QST PAGE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0002.npy",
+          "text": "80 WHERE LOGS ENTERED",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0003.npy",
+          "text": "INCREASED FROM 191 TO",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0004.npy",
+          "text": "550. FOR 2011 THE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0005.npy",
+          "text": "BIG CATEGORY NEWS WAS THE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0006.npy",
+          "text": "CREATION OF THE MULTIOPERATOR,",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0007.npy",
+          "text": "LOW POWER MOLP CATEGORY.",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0008.npy",
+          "text": "FILLING THE ROLE OF BOTH",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0009.npy",
+          "text": "A TRUE MULTIOPERATOR CATEGORY",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0010.npy",
+          "text": "AS WELL AS A SINGLE OPERATOR",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0011.npy",
+          "text": "MIXED MODE ASSISTED CATEGORY",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0012.npy",
+          "text": "IT PROVED TO BE QUITE POPULAR",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0013.npy",
+          "text": "WITH 512 LOGS SUBMITTED",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0014.npy",
+          "text": "WORLDWIDE. FROM FIRST",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0015.npy",
+          "text": "IMPRESSIONS IT LOOKS LIKE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0016.npy",
+          "text": "WE HAVE A REAL WINNER HERE.",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0017.npy",
+          "text": "WHEN COMBINED WITH THE MULTIOPERATOR,",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0018.npy",
+          "text": "HIGH POWER MOHP CATEGORY",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0019.npy",
+          "text": "IT PROPELLED TOTAL MULTI",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0020.npy",
+          "text": "OPERATOR ENTRIES AHEAD OF",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0021.npy",
+          "text": "TOTAL SINGLE OPERATOR,",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0022.npy",
+          "text": "MIXED MODE ENTRIES. DURING",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0023.npy",
+          "text": "THE PREVIOUS 38 RUNNINGS",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0024.npy",
+          "text": "OF THIS CONTEST THE MULTIOPERATOR",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0025.npy",
+          "text": "CATEGORY WAS ALWAYS A",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0026.npy",
+          "text": "DISTANT LAST PLACE TO THE OTHER",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0027.npy",
+          "text": "THREE. LOOKING AROUND",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0028.npy",
+          "text": "THE WORLD, LOGS WERE RECEIVED",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0029.npy",
+          "text": "FROM MORE THAN 230 DIFFERENT",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0030.npy",
+          "text": "DXCC ENTITIES AND W/VE/XE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0031.npy",
+          "text": "SECTIONS. THIS IS TRULY",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0032.npy",
+          "text": "A GLOBAL CONTEST. MORE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0033.npy",
+          "text": "LOGS WERE RECEIVED FROM",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0034.npy",
+          "text": "THOSE QUINTESSENTIAL CONTESTERS",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0035.npy",
+          "text": "IN JAPAN WITH 267, MORE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0036.npy",
+          "text": "THAN ANY OTHER LOCATION.",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0037.npy",
+          "text": "THEY WERE CLOSELY FOLLOWED",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0038.npy",
+          "text": "BY GERMANYS 242 LOGS",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0039.npy",
+          "text": "AND EUROPEAN RUSSIAS 239",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0040.npy",
+          "text": "LOGS. LOOKING FOR THE",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0041.npy",
+          "text": "MOST ACTIVE W/VE/XE SECTIONS,",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0042.npy",
+          "text": "HONORS GO TO VIRGINIA WITH",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0043.npy",
+          "text": "106 LOGS RECEIVED FOLLOWED",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0044.npy",
+          "text": "BY MINNESOTA WITH 92.",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0045.npy",
+          "text": "OF PARTICULAR INTEREST IN",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_30wpm_0046.npy",
+          "text": "ASIA WERE THE 50",
+          "source_key": "130108_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0000.npy",
+          "text": "NOW 20 WPM",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0001.npy",
+          "text": "TEXT IS FROM SEPTEMBER",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0002.npy",
+          "text": "2015 QST PAGE",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0003.npy",
+          "text": "34 SERVICE OPERATION",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0004.npy",
+          "text": "IN MIND FOR FSQ.",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0005.npy",
+          "text": "WE WANTED TO MAKE",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0006.npy",
+          "text": "OPERATION AND KEEPING",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0007.npy",
+          "text": "IN TOUCH WITH FRIENDS",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0008.npy",
+          "text": "EASY AND A PLEASURE",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0009.npy",
+          "text": "THUS WE KNEW WE COULD",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0010.npy",
+          "text": "ATTRACT USERS WHO",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0011.npy",
+          "text": "WOULD BE TRAINING",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0012.npy",
+          "text": "AS EMERGENCY OPERATORS.",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0013.npy",
+          "text": "FSQ CODING AND",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0015.npy",
+          "text": "USES 33 FSK, WITH",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0016.npy",
+          "text": "TONES ENCODED WITH",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0017.npy",
+          "text": "IFK INCREMENTAL FREQUENCY",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0019.npy",
+          "text": "MFSK WITH AN OFFSET",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0020.npy",
+          "text": "OF 1. THIS SIGNALING",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0025.npy",
+          "text": "THE TONE ROTATION",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0027.npy",
+          "text": "THE RISK OF ADJACENT",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0029.npy",
+          "text": "ISI INTER SYMBOL",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0032.npy",
+          "text": "CODED, SO IFK",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0035.npy",
+          "text": "OF DOPPLER SHIFT,",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0037.npy",
+          "text": "AND POOR TUNING.",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0038.npy",
+          "text": "SYMBOL TABLE 32",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0039.npy",
+          "text": "TONE DIFFERENCES ARE",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0040.npy",
+          "text": "AVAILABLE IN FSQ.",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0041.npy",
+          "text": "WE ALLOCATED 29",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0042.npy",
+          "text": "TONE DIFFERENCES DIRECTLY",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_20wpm_0043.npy",
+          "text": "TO THE MOST USED CHARACTERS",
+          "source_key": "170314_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0000.npy",
+          "text": "NOW 15 WPM",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0001.npy",
+          "text": "TEXT IS FROM",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0003.npy",
+          "text": "QST PAGE 68",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0006.npy",
+          "text": "WHICH CO EXHIBITED",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0007.npy",
+          "text": "AT THE WORLD",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0009.npy",
+          "text": "BOTH ARE ARRL",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0012.npy",
+          "text": "THE HALL OF",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0013.npy",
+          "text": "SCIENCE ARC PAIRED",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0016.npy",
+          "text": "TO MAKE VHF",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0017.npy",
+          "text": "AND HF CONTACTS",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0018.npy",
+          "text": "AT THE DEMONSTRATION",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0020.npy",
+          "text": "TRUSTEE STEVE GREENBAUM,",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0022.npy",
+          "text": "HELPED TO ORGANIZE",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0023.npy",
+          "text": "THE JOINT EXHIBIT",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0024.npy",
+          "text": "WITH GARDEN SCHOOL.",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0025.npy",
+          "text": "THE GARDEN SCHOOL",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0027.npy",
+          "text": "BY THEIR CLUB",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0031.npy",
+          "text": "DID A GREAT JOB",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0032.npy",
+          "text": "ENGAGING THE PUBLIC,",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0033.npy",
+          "text": "SAID ARRL MARKETING",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190424_15wpm_0034.npy",
+          "text": "END OF 15 WPM",
+          "source_key": "190424_15wpm",
+          "wpm": "15wpm"
+        }
+      ],
+      "wpms": [
+        "15wpm",
+        "20wpm",
+        "30wpm"
+      ],
+      "num_chunks": 99,
+      "num_sources": 3
+    },
+    {
+      "name": "fold_3",
+      "sources": [
+        "130109_15wpm",
+        "190409_20wpm",
+        "190409_30wpm"
+      ],
+      "items": [
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0000.npy",
+          "text": "NOW 15 WPM",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0001.npy",
+          "text": "TEXT IS FROM",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0003.npy",
+          "text": "QST PAGE 55",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0004.npy",
+          "text": "AND A TUNER WAS",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0006.npy",
+          "text": "FOR SOME LOADS,",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0012.npy",
+          "text": "OF THE PERIOD",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0015.npy",
+          "text": "SIMILAR TO THOSE",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0016.npy",
+          "text": "USED BEFORE THE",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0017.npy",
+          "text": "WAR, BY THE",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0018.npy",
+          "text": "MID 50S, E.",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0023.npy",
+          "text": "OF ANTENNA TUNERS",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0024.npy",
+          "text": "SEE FIGURE 4.",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0025.npy",
+          "text": "THEY WERE PARALLEL",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0027.npy",
+          "text": "SIMILAR TO THE",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0029.npy",
+          "text": "BUT NOW BANDSWITCHED.",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0030.npy",
+          "text": "IN ADDITION A",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0033.npy",
+          "text": "PROVIDED A VARIABLE",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0036.npy",
+          "text": "TO THE END OF",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130109_15wpm_0037.npy",
+          "text": "15 WPM TEXT",
+          "source_key": "130109_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0000.npy",
+          "text": "NOW 20 WPM",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0001.npy",
+          "text": "TEXT IS FROM DECEMBER",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0002.npy",
+          "text": "2017 QST PAGE",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0003.npy",
+          "text": "43 INTO THE MEMORY",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0004.npy",
+          "text": "CHANNELS BY PUSHING",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0005.npy",
+          "text": "THE MW BUTTON. I",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0006.npy",
+          "text": "WAS ABLE TO ASSIGN",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0007.npy",
+          "text": "THE MEMORIES TO TWO",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0008.npy",
+          "text": "BANKS, ONE FOR",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0009.npy",
+          "text": "MY PRIMARY RESIDENCE",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0010.npy",
+          "text": "IN THE CITY, AND",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0011.npy",
+          "text": "THE OTHER FOR MY",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0013.npy",
+          "text": "IN THE COUNTRY,",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0014.npy",
+          "text": "ALLOWING ME TO SCAN",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0015.npy",
+          "text": "ONLY THOSE CHANNELS",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0016.npy",
+          "text": "INDICATED FOR THE",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0017.npy",
+          "text": "AREA I WAS IN. EACH",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0019.npy",
+          "text": "CAN BE EDITED AS NECESSARY.",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0020.npy",
+          "text": "THERE ARE 1,000",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0023.npy",
+          "text": "THEY CAN BE GROUPED",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0024.npy",
+          "text": "INTO BANKS. THERE",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0025.npy",
+          "text": "ARE FOUR CALL CHANNEL",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0026.npy",
+          "text": "MEMORIES TWO FOR",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0027.npy",
+          "text": "EACH OF THE RADIOS",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0029.npy",
+          "text": "AND A HOME CHANNEL",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0030.npy",
+          "text": "CAN BE PROGRAMMED",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0031.npy",
+          "text": "AND SELECTED FROM",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0032.npy",
+          "text": "THE MICS BUTTON ARRAY.",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0033.npy",
+          "text": "I WAS ABLE TO PROGRAM",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0034.npy",
+          "text": "AND MEMORIZE SEVERAL",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0035.npy",
+          "text": "SCANS, SUCH AS",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0036.npy",
+          "text": "THE LOWER AND UPPER",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0037.npy",
+          "text": "2 METER REPEATER SUBBANDS,",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0038.npy",
+          "text": "THE AIRCRAFT BAND,",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0039.npy",
+          "text": "AND OTHER PUBLIC",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0040.npy",
+          "text": "SAFETY AND LAND MOBILE",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0041.npy",
+          "text": "FREQUENCIES IN THE",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0042.npy",
+          "text": "118 140 MHZ",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0043.npy",
+          "text": "AND 144 174",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_20wpm_0044.npy",
+          "text": "MHZ RANGE. I WAS",
+          "source_key": "190409_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0000.npy",
+          "text": "NOW 30 WPM TEXT IS FROM",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0001.npy",
+          "text": "DECEMBER 2017 QST PAGE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0002.npy",
+          "text": "43 AND AM N ARE AVAILABLE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0003.npy",
+          "text": "FOR RECEIVE ONLY. THE MW",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0004.npy",
+          "text": "MEMORY WRITE BUTTON SAVES",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0005.npy",
+          "text": "THE CURRENT OPERATING DATA",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0006.npy",
+          "text": "INTO THE NEXT AVAILABLE BLANK",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0007.npy",
+          "text": "MEMORY CHANNEL WHEN YOU",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0008.npy",
+          "text": "PRESS AND HOLD IT FOR 1",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0009.npy",
+          "text": "SECOND. THE RXCS RECEIVED",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0010.npy",
+          "text": "CALL SIGN CAPTURE KEY ALLOWS",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0011.npy",
+          "text": "EASY, INSTANT TRANSFER OF",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0012.npy",
+          "text": "A RECEIVED CALL SIGN INTO",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0013.npy",
+          "text": "THE DESTINATION CALL SIGN",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0014.npy",
+          "text": "FIELD FOR ROUTING. THE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0015.npy",
+          "text": "MONI MONITOR KEY ALLOWS",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0016.npy",
+          "text": "FOR LISTENING ON THE ACTIVE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0017.npy",
+          "text": "REPEATERS INPUT FOR ASSESSMENT",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0018.npy",
+          "text": "OF A REPEATER USERS SIGNAL",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0019.npy",
+          "text": "STRENGTH. THE QUICK/MUTE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0020.npy",
+          "text": "KEY OPENS A LIST OF OPERATING",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0021.npy",
+          "text": "SELECTIONS THAT ARE USED MORE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0022.npy",
+          "text": "FREQUENTLY THAN THOSE ON",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0023.npy",
+          "text": "THE MAIN MENU. THE QUICK",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0024.npy",
+          "text": "BUTTON IS ALSO PUSHED FREQUENTLY",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0025.npy",
+          "text": "TO ENABLE EDITING, ADDING,",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0026.npy",
+          "text": "OR DELETING TEXT/NUMERALS",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0027.npy",
+          "text": "FOR VARIOUS FUNCTIONS",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0028.npy",
+          "text": "IN THE TEXT ENTRY MODE. ON",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0029.npy",
+          "text": "THE TOP LEFT CORNER OF THE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0030.npy",
+          "text": "RADIO IS THE MENU BUTTON,",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0031.npy",
+          "text": "WHERE A MORE EXTENSIVE LIST",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0032.npy",
+          "text": "OF SELECTABLE OPERATING",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0033.npy",
+          "text": "PARAMETERS INCLUDING THE",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0034.npy",
+          "text": "SET AND FORGETS IS WELL ORGANIZED",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0035.npy",
+          "text": "AND DISPLAYED FOR REVIEW",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0036.npy",
+          "text": "AND CHANGES. IT IS OFTEN",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0037.npy",
+          "text": "USED IN CONJUNCTION WITH",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0038.npy",
+          "text": "THE QUICK MENU BUTTON FOR",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0039.npy",
+          "text": "EDITING TEXT. HOLD DOWN",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0040.npy",
+          "text": "THE BUTTON FOR A SECOND,",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0041.npy",
+          "text": "AND THE CURRENT OPERATING",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0042.npy",
+          "text": "DATA IS LOCKED. ON THE BOTTOM",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0043.npy",
+          "text": "LEFT CORNER IS THE BACK/DR",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\190409_30wpm_0044.npy",
+          "text": "KEY, WHICH TOGGLES BETWEEN",
+          "source_key": "190409_30wpm",
+          "wpm": "30wpm"
+        }
+      ],
+      "wpms": [
+        "15wpm",
+        "20wpm",
+        "30wpm"
+      ],
+      "num_chunks": 104,
+      "num_sources": 3
+    },
+    {
+      "name": "fold_4",
+      "sources": [
+        "150317_20wpm",
+        "150401_15wpm",
+        "170314_30wpm"
+      ],
+      "items": [
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0000.npy",
+          "text": "NOW 20 WPM",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0001.npy",
+          "text": "TEXT IS FROM JULY",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0002.npy",
+          "text": "2014 QST PAGE",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0003.npy",
+          "text": "85 HIS FM SIGNAL",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0004.npy",
+          "text": "ACROSS 14 GRIDS",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0005.npy",
+          "text": "TO CLAIM THE TOP",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0006.npy",
+          "text": "SPOT IN THE SINGLE",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0007.npy",
+          "text": "OPERATOR, FM ONLY",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0009.npy",
+          "text": "USED ONLY ONE OF",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0010.npy",
+          "text": "THE FOUR BANDS ALLOWED,",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0011.npy",
+          "text": "144 MHZ, FOR",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0012.npy",
+          "text": "HIS LEADING EFFORT.",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0013.npy",
+          "text": "LACKING THE CONCENTRATION",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0014.npy",
+          "text": "OF STATIONS TO WORK",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0015.npy",
+          "text": "THAT EXISTS IN THE NORTHEAST",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0016.npy",
+          "text": "REGION, THE TEAM",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0017.npy",
+          "text": "OF OPERATORS AT",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0018.npy",
+          "text": "K5QE WORKED HARD",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0019.npy",
+          "text": "TO CLAIM THE THIRD",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0020.npy",
+          "text": "SPOT IN THE LIMITED",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0022.npy",
+          "text": "FROM THEIR EAST TEXAS",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0023.npy",
+          "text": "LOCATION IN THE SOUTH",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0024.npy",
+          "text": "TEXAS SECTION. THE",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0025.npy",
+          "text": "CREW AT MARSHALLS",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0026.npy",
+          "text": "STATION RACKED UP",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0028.npy",
+          "text": "SO ALMOST 2/3",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0029.npy",
+          "text": "OF THEIR 315 CONTACTS",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0030.npy",
+          "text": "WERE IN A UNIQUE MULTIPLIER",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0031.npy",
+          "text": "FOR THEM. THE MIDWEST",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0032.npy",
+          "text": "WAS ALSO LESS HOSPITABLE",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0033.npy",
+          "text": "TO ROVERS BUT WYATT,",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0035.npy",
+          "text": "UP WITH BRIAN,",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0036.npy",
+          "text": "KD0LRG TO BRAVE",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0037.npy",
+          "text": "THE COLD AND CHALLENGING",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0039.npy",
+          "text": "THEY PILOTED THEIR",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0040.npy",
+          "text": "FOUR BAND STATION",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0041.npy",
+          "text": "THROUGH 10 GRIDS",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0042.npy",
+          "text": "TO COMPLETE 328",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150317_20wpm_0044.npy",
+          "text": "THIS YEARS TOP MULTIPLIER",
+          "source_key": "150317_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0000.npy",
+          "text": "NOW 15 WPM",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0001.npy",
+          "text": "TEXT IS FROM",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0003.npy",
+          "text": "QST PAGE 61",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0010.npy",
+          "text": "TO GENERATE PROFITS.",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0012.npy",
+          "text": "WHAT IF YOUVE",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0013.npy",
+          "text": "DESIGNED NEW AUTOMATIC",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0018.npy",
+          "text": "MAPS AND A PLETHORA",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0021.npy",
+          "text": "IF YOURE LOOKING",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0023.npy",
+          "text": "TO HELP FLESH",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0024.npy",
+          "text": "OUT THIS ELABORATE",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0026.npy",
+          "text": "AND YOU INTEND",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0027.npy",
+          "text": "TO GIVE AWAY",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0028.npy",
+          "text": "THE FINAL RESULT",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0029.npy",
+          "text": "FREE OF CHARGE,",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0030.npy",
+          "text": "YOU MIGHT BE",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0032.npy",
+          "text": "THE NUMBER OF",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0034.npy",
+          "text": "WILL EMERGE FROM",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0037.npy",
+          "text": "OF FREE END",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\150401_15wpm_0038.npy",
+          "text": "OF 15 WPM",
+          "source_key": "150401_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0000.npy",
+          "text": "NOW 30 WPM TEXT IS FROM",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0001.npy",
+          "text": "SEPTEMBER 2015 QST PAGE",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0002.npy",
+          "text": "34 MODEL, AND INTRODUCE",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0003.npy",
+          "text": "HAMS TO VERY SIMPLE CHAT",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0004.npy",
+          "text": "OPERATION, NOT UNLIKE CELL",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0005.npy",
+          "text": "PHONE TEXTING OR INTERNET CHAT.",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0006.npy",
+          "text": "SEE THE LIST OF FSQ CALLING",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0007.npy",
+          "text": "FREQUENCIES IN TABLE 1.",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0008.npy",
+          "text": "COMPLEX VS. SIMPLE IN",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0009.npy",
+          "text": "RECENT YEARS, DIGITAL MODES",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0010.npy",
+          "text": "HAVE BECOME INCREASINGLY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0011.npy",
+          "text": "COMPLEX. HAM RADIO SHOULD",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0012.npy",
+          "text": "BE ABOUT FRIENDS CHATTING",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0013.npy",
+          "text": "WITH EASY TO USE EQUIPMENT,",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0014.npy",
+          "text": "NOT FIGHTING WITH THE TECHNOLOGY,",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0015.npy",
+          "text": "OR STRUGGLING TO UNDERSTAND",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0016.npy",
+          "text": "IT. WHILE SOME RECENT COMPLEX",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0017.npy",
+          "text": "MODES MAY BE TECHNICALLY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0018.npy",
+          "text": "EXCELLENT, THAT EXCELLENCE",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0019.npy",
+          "text": "COMES AT THE COST OF COMPLEXITY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0020.npy",
+          "text": "AND OPERATIONAL PLEASURE",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0021.npy",
+          "text": "THEY ARE NOT CONVERSATIONAL",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0022.npy",
+          "text": "MODES. THEY CAN BE VERY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0023.npy",
+          "text": "SLUGGISH CAUSE DELAY,",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0024.npy",
+          "text": "AND CAN REQUIRE MORE BANDWIDTH",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0025.npy",
+          "text": "AND HIGHER SYMBOL RATES",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0026.npy",
+          "text": "THAT FURTHER ADD TO COMPLEXITY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0027.npy",
+          "text": "AND TO PROBLEMS ON HF PATHS.",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0028.npy",
+          "text": "FOR CHATTING, WE NEED A VERY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0029.npy",
+          "text": "SLICK MODE, WITH NO ERROR",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0030.npy",
+          "text": "CORRECTION OR OTHER DELAYS.",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0031.npy",
+          "text": "WE DELIBERATELY EXPLOITED",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0032.npy",
+          "text": "ROBUSTNESS THROUGH SIMPLICITY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0033.npy",
+          "text": "IN FSQ. WE ELECTED TO USE",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0034.npy",
+          "text": "AN MFSK MULTI FREQUENCY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0035.npy",
+          "text": "SHIFT KEYING SYSTEM OF 33",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0036.npy",
+          "text": "TONES, OPERATING AT A MAXIMUM",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0037.npy",
+          "text": "OF NEARLY 6 BAUD, THAT",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0038.npy",
+          "text": "PROVIDES NEARLY 60 WORDS",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0039.npy",
+          "text": "PER MINUTE THROUGHPUT.",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0040.npy",
+          "text": "OVERALL SIGNAL BANDWIDTH",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0041.npy",
+          "text": "IS 300 HZ, BUT THE FILTER",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0042.npy",
+          "text": "BANDWIDTH PER TONE IS ONLY",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0043.npy",
+          "text": "ABOUT 3 HZ, HENCE IT HAS",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\170314_30wpm_0044.npy",
+          "text": "EXCELLENT SENSITIVITY. THE",
+          "source_key": "170314_30wpm",
+          "wpm": "30wpm"
+        }
+      ],
+      "wpms": [
+        "15wpm",
+        "20wpm",
+        "30wpm"
+      ],
+      "num_chunks": 103,
+      "num_sources": 3
+    },
+    {
+      "name": "fold_5",
+      "sources": [
+        "130108_20wpm",
+        "220823_30wpm",
+        "260107_15wpm"
+      ],
+      "items": [
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0000.npy",
+          "text": "NOW 20 WPM",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0001.npy",
+          "text": "TEXT IS FROM JULY",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0002.npy",
+          "text": "2012 QST PAGE",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0003.npy",
+          "text": "80 WERE WITHIN",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0005.npy",
+          "text": "I BET THEY WERE IN YOUR",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0006.npy",
+          "text": "LOG. IN SECOND",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0007.npy",
+          "text": "PLACE WERE THE 11",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0008.npy",
+          "text": "STATIONS FROM IRELAND",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0009.npy",
+          "text": "THAT AVERAGED 894",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0010.npy",
+          "text": "QSOS EACH FOLLOWED",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0011.npy",
+          "text": "BY A TIE FOR THIRD",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0012.npy",
+          "text": "PLACE BETWEEN 6 STATIONS",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0014.npy",
+          "text": "AND 11 FROM ALBERTA",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0015.npy",
+          "text": "WHO AVERAGED 847",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0016.npy",
+          "text": "QSOS EACH. IF YOU",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0017.npy",
+          "text": "LIVE IN SASKATCHEWAN",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0018.npy",
+          "text": "OR ALBERTA AND IT",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0019.npy",
+          "text": "IS THE SECOND WEEKEND",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0020.npy",
+          "text": "IN DECEMBER IT IS PROBABLY",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0021.npy",
+          "text": "NOT A BAD DAY TO",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0022.npy",
+          "text": "SPEND SOME TIME ON",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0023.npy",
+          "text": "THE RADIO. RECORDS,",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0024.npy",
+          "text": "RECORDS AND MORE",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0025.npy",
+          "text": "RECORDS NOT ONLY",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0026.npy",
+          "text": "DID OPERATORS HAVE",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0027.npy",
+          "text": "FUN IN 2011",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0028.npy",
+          "text": "BUT THEY SET RECORDS",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0029.npy",
+          "text": "ALL OVER THE PLACE.",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0030.npy",
+          "text": "WOW, WERE THERE",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0031.npy",
+          "text": "RECORDS SET. DRIVEN",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0032.npy",
+          "text": "BY THE TRIPLE FACTORS",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0033.npy",
+          "text": "OF MORE SUNSPOTS,",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0034.npy",
+          "text": "THE NEW MOLP CATEGORY",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0035.npy",
+          "text": "AND THE CONTINUING",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0036.npy",
+          "text": "BENEFIT OF 32 NEW",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0038.npy",
+          "text": "A TOTAL OF 432",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0039.npy",
+          "text": "NEW ALL TIME RECORDS",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0040.npy",
+          "text": "WERE SET AT THE DXCC",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0041.npy",
+          "text": "ENTITY AND W/VE/XE",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0042.npy",
+          "text": "SECTION LEVEL. LOOKING",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0043.npy",
+          "text": "AT IT ANOTHER WAY,",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\130108_20wpm_0044.npy",
+          "text": "ALMOST 1 IN",
+          "source_key": "130108_20wpm",
+          "wpm": "20wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0001.npy",
+          "text": "THE RADIO LABORING UNDER SOME ODD SETTINGS. SHOULD",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0002.npy",
+          "text": "THAT HAPPEN TO YOU,",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0003.npy",
+          "text": "THE MANUAL HELPFULLY",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0004.npy",
+          "text": "DESCRIBES THE STEPS",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0005.npy",
+          "text": "NECESSARY TO RESET",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0006.npy",
+          "text": "THE RADIO TO",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0007.npy",
+          "text": "FACTORY DEFAULTS. SATISFIED",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0008.npy",
+          "text": "WITH MY DEEPER DIVE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0009.npy",
+          "text": "INTO THE MANUAL, IT WAS TIME AGAIN TO APPLY",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0011.npy",
+          "text": "FTDX10S RELAYS SPRING TO",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0012.npy",
+          "text": "LIFE AND THE TFT",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0013.npy",
+          "text": "DISPLAY IS ALWAYS A MARVEL TO BEHOLD. SELECTING",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0014.npy",
+          "text": "THE 3DSS DISPLAY MODE,",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0018.npy",
+          "text": "THREE DIMENSIONAL FIELD OF",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0019.npy",
+          "text": "SIGNAL SPIKES SEE FIGURE 3.",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0020.npy",
+          "text": "YOU CAN SELECT A MORE TRADITIONAL",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0021.npy",
+          "text": "WATERFALL DISPLAY, IF",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0022.npy",
+          "text": "YOU PREFER, AND EVEN BRING",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0023.npy",
+          "text": "UP INSET DISPLAYS FOR AUDIO",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0024.npy",
+          "text": "AND MORE. PICKING AT ONE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0025.npy",
+          "text": "MINOR NIT, SOME POPUP",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0026.npy",
+          "text": "SCREENS, SUCH AS BAND SELECTION,",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0027.npy",
+          "text": "DISAPPEAR IF YOU DONT MAKE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0028.npy",
+          "text": "A CHOICE WITHIN COUPLE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0029.npy",
+          "text": "OF SECONDS. THE RADIO SOON",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0030.npy",
+          "text": "TRAINED ME TO THINK FAST AND",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0031.npy",
+          "text": "NOT CONTEMPLATE MY OPTIONS,",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0032.npy",
+          "text": "BUT THIS WAS STILL AN ANNOYING",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0033.npy",
+          "text": "BEHAVIOR. IT WOULD BE NICE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0034.npy",
+          "text": "IF ALL SCREENS REMAINED VISIBLE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0035.npy",
+          "text": "UNTIL YOU MADE YOUR CHOICE,",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0036.npy",
+          "text": "HOWEVER LONG THAT MIGHT",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0037.npy",
+          "text": "TAKE. A SMOOTH SPIN OF",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0038.npy",
+          "text": "THE LARGE VFO KNOB SENT THE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0039.npy",
+          "text": "CURSOR RACING THOUGH THE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0040.npy",
+          "text": "DISPLAY. AS I LISTENED TO",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0041.npy",
+          "text": "SSB SIGNALS ON 40 METERS,",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0042.npy",
+          "text": "THE FTDX10S PERFORMANCE",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0043.npy",
+          "text": "WAS STRIKING. THE BAND WAS",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\220823_30wpm_0044.npy",
+          "text": "CROWDED, WHICH WAS JUST",
+          "source_key": "220823_30wpm",
+          "wpm": "30wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0001.npy",
+          "text": "THE ATTENTION OF",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0006.npy",
+          "text": "MY RADIO AND",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0007.npy",
+          "text": "ANTENNAS IN THE",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0008.npy",
+          "text": "SECURITY BIN FOR A",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0010.npy",
+          "text": "AND HASSLE FREE INSPECTION. TRUST ME, IF",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0011.npy",
+          "text": "YOU DONT, SECURITY WILL CONDUCT",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0014.npy",
+          "text": "THAT CAN CAUSE DELAYS. BECAUSE I",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0019.npy",
+          "text": "WAS ABLE TO USE",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0020.npy",
+          "text": "A DIAMOND K400",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0021.npy",
+          "text": "MOUNT THAT I HAD",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0023.npy",
+          "text": "FORGET THE ALLEN",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0025.npy",
+          "text": "WITH THE M104",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0026.npy",
+          "text": "ANTENNA FOR HF",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0028.npy",
+          "text": "I ALSO BROUGHT",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0029.npy",
+          "text": "A CIGARETTE LIGHTER",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0030.npy",
+          "text": "CORD FOR THE",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        },
+        {
+          "npy": "data/arrl_labeled\\260107_15wpm_0032.npy",
+          "text": "I WAS FULLY",
+          "source_key": "260107_15wpm",
+          "wpm": "15wpm"
+        }
+      ],
+      "wpms": [
+        "15wpm",
+        "20wpm",
+        "30wpm"
+      ],
+      "num_chunks": 99,
+      "num_sources": 3
+    }
+  ]
+}

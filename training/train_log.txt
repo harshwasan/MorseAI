@@ -1,0 +1,283 @@
+Device: cuda
+Loaded checkpoint (epoch 3, CER=0.5620)
+DataLoaders ready
+Building optimizer...
+  [10:05:22] Epoch 1 | batch 62/625 | loss 1.7958 | 763ms/batch | ETA 7.2min
+  [10:06:04] Epoch 1 | batch 124/625 | loss 1.7813 | 672ms/batch | ETA 5.6min
+  [10:06:46] Epoch 1 | batch 186/625 | loss 1.7810 | 675ms/batch | ETA 4.9min
+  [10:07:28] Epoch 1 | batch 248/625 | loss 1.7690 | 677ms/batch | ETA 4.3min
+  [10:08:10] Epoch 1 | batch 310/625 | loss 1.7625 | 676ms/batch | ETA 3.5min
+  [10:08:51] Epoch 1 | batch 372/625 | loss 1.7615 | 675ms/batch | ETA 2.8min
+  [10:09:33] Epoch 1 | batch 434/625 | loss 1.7596 | 675ms/batch | ETA 2.1min
+  [10:10:15] Epoch 1 | batch 496/625 | loss 1.7557 | 674ms/batch | ETA 1.4min
+  [10:10:57] Epoch 1 | batch 558/625 | loss 1.7527 | 674ms/batch | ETA 0.8min
+  [10:11:39] Epoch 1 | batch 620/625 | loss 1.7500 | 677ms/batch | ETA 0.1min
+[10:11:50] Epoch   1/6 | Loss: 1.7492 | CER: 0.5666 | Time: 427.3s | 684ms/batch
+  [10:12:33] Epoch 2 | batch 62/625 | loss 1.7054 | 680ms/batch | ETA 6.4min
+  [10:13:14] Epoch 2 | batch 124/625 | loss 1.7145 | 675ms/batch | ETA 5.6min
+  [10:13:56] Epoch 2 | batch 186/625 | loss 1.7164 | 675ms/batch | ETA 4.9min
+  [10:14:38] Epoch 2 | batch 248/625 | loss 1.7117 | 674ms/batch | ETA 4.2min
+  [10:15:20] Epoch 2 | batch 310/625 | loss 1.7113 | 674ms/batch | ETA 3.5min
+  [10:16:01] Epoch 2 | batch 372/625 | loss 1.7085 | 673ms/batch | ETA 2.8min
+  [10:16:43] Epoch 2 | batch 434/625 | loss 1.7045 | 674ms/batch | ETA 2.1min
+  [10:17:25] Epoch 2 | batch 496/625 | loss 1.7034 | 673ms/batch | ETA 1.4min
+  [10:18:07] Epoch 2 | batch 558/625 | loss 1.7010 | 673ms/batch | ETA 0.8min
+  [10:18:48] Epoch 2 | batch 620/625 | loss 1.6983 | 673ms/batch | ETA 0.1min
+[10:18:55] Epoch   2/6 | Loss: 1.6978 | CER: 0.5811 | Time: 421.4s | 674ms/batch
+  [10:19:37] Epoch 3 | batch 62/625 | loss 1.6632 | 679ms/batch | ETA 6.4min
+  [10:20:19] Epoch 3 | batch 124/625 | loss 1.6731 | 673ms/batch | ETA 5.6min
+  [10:21:01] Epoch 3 | batch 186/625 | loss 1.6604 | 672ms/batch | ETA 4.9min
+  [10:21:42] Epoch 3 | batch 248/625 | loss 1.6555 | 673ms/batch | ETA 4.2min
+  [10:22:24] Epoch 3 | batch 310/625 | loss 1.6515 | 673ms/batch | ETA 3.5min
+  [10:23:06] Epoch 3 | batch 372/625 | loss 1.6495 | 673ms/batch | ETA 2.8min
+  [10:23:47] Epoch 3 | batch 434/625 | loss 1.6449 | 673ms/batch | ETA 2.1min
+  [10:24:29] Epoch 3 | batch 496/625 | loss 1.6457 | 673ms/batch | ETA 1.4min
+  [10:25:11] Epoch 3 | batch 558/625 | loss 1.6450 | 675ms/batch | ETA 0.8min
+  [10:25:53] Epoch 3 | batch 620/625 | loss 1.6435 | 673ms/batch | ETA 0.1min
+[10:25:59] Epoch   3/6 | Loss: 1.6434 | CER: 0.5730 | Time: 421.0s | 674ms/batch
+  [10:26:41] Epoch 4 | batch 62/625 | loss 1.6181 | 678ms/batch | ETA 6.4min
+  [10:27:23] Epoch 4 | batch 124/625 | loss 1.6070 | 675ms/batch | ETA 5.6min
+  [10:28:05] Epoch 4 | batch 186/625 | loss 1.6061 | 673ms/batch | ETA 4.9min
+  [10:28:47] Epoch 4 | batch 248/625 | loss 1.6028 | 673ms/batch | ETA 4.2min
+  [10:29:29] Epoch 4 | batch 310/625 | loss 1.6075 | 673ms/batch | ETA 3.5min
+  [10:30:10] Epoch 4 | batch 372/625 | loss 1.6045 | 673ms/batch | ETA 2.8min
+  [10:30:52] Epoch 4 | batch 434/625 | loss 1.6019 | 674ms/batch | ETA 2.1min
+  [10:31:34] Epoch 4 | batch 496/625 | loss 1.5986 | 673ms/batch | ETA 1.4min
+  [10:32:16] Epoch 4 | batch 558/625 | loss 1.5965 | 674ms/batch | ETA 0.8min
+  [10:32:57] Epoch 4 | batch 620/625 | loss 1.5955 | 673ms/batch | ETA 0.1min
+[10:33:04] Epoch   4/6 | Loss: 1.5950 | CER: 0.5699 | Time: 421.3s | 674ms/batch
+  [10:33:46] Epoch 5 | batch 62/625 | loss 1.5829 | 681ms/batch | ETA 6.4min
+  [10:34:28] Epoch 5 | batch 124/625 | loss 1.5780 | 680ms/batch | ETA 5.7min
+  [10:35:10] Epoch 5 | batch 186/625 | loss 1.5737 | 673ms/batch | ETA 4.9min
+  [10:35:52] Epoch 5 | batch 248/625 | loss 1.5755 | 674ms/batch | ETA 4.2min
+  [10:36:34] Epoch 5 | batch 310/625 | loss 1.5769 | 673ms/batch | ETA 3.5min
+  [10:37:15] Epoch 5 | batch 372/625 | loss 1.5743 | 674ms/batch | ETA 2.8min
+  [10:37:57] Epoch 5 | batch 434/625 | loss 1.5741 | 674ms/batch | ETA 2.1min
+  [10:38:39] Epoch 5 | batch 496/625 | loss 1.5754 | 673ms/batch | ETA 1.4min
+  [10:39:21] Epoch 5 | batch 558/625 | loss 1.5744 | 674ms/batch | ETA 0.8min
+  [10:40:02] Epoch 5 | batch 620/625 | loss 1.5717 | 672ms/batch | ETA 0.1min
+[10:40:09] Epoch   5/6 | Loss: 1.5713 | CER: 0.5534 | Time: 421.8s | 675ms/batch
+  Target : NEW ONE SEE QUEBEC MESSAGE
+  Decoded: NEW O   
+
+  Target : ROMEO RADIO
+  Decoded: ROMEO 
+
+  Target : OUT BUT SHE
+  Decoded: OUT  
+
+  Target : ONE LET SIGNAL ECHO LET
+  Decoded: ONE E   
+
+  [best] Saved model (CER=0.5534)
+  [10:40:52] Epoch 6 | batch 62/625 | loss 1.5465 | 679ms/batch | ETA 6.4min
+  [10:41:34] Epoch 6 | batch 124/625 | loss 1.5463 | 675ms/batch | ETA 5.6min
+  [10:42:15] Epoch 6 | batch 186/625 | loss 1.5546 | 673ms/batch | ETA 4.9min
+  [10:42:57] Epoch 6 | batch 248/625 | loss 1.5487 | 675ms/batch | ETA 4.2min
+  [10:43:39] Epoch 6 | batch 310/625 | loss 1.5459 | 673ms/batch | ETA 3.5min
+  [10:44:21] Epoch 6 | batch 372/625 | loss 1.5478 | 674ms/batch | ETA 2.8min
+  [10:45:02] Epoch 6 | batch 434/625 | loss 1.5498 | 673ms/batch | ETA 2.1min
+  [10:45:44] Epoch 6 | batch 496/625 | loss 1.5489 | 672ms/batch | ETA 1.4min
+  [10:46:26] Epoch 6 | batch 558/625 | loss 1.5498 | 673ms/batch | ETA 0.8min
+  [10:47:07] Epoch 6 | batch 620/625 | loss 1.5475 | 673ms/batch | ETA 0.1min
+[10:47:14] Epoch   6/6 | Loss: 1.5474 | CER: 0.5472 | Time: 421.2s | 674ms/batch
+  [best] Saved model (CER=0.5472)
+
+Fine-tuning complete. Best CER: 0.5472
+Device: cuda
+Loaded checkpoint (epoch ft6, CER=0.5472)
+DataLoaders ready
+Building optimizer...
+  [11:08:04] Epoch 1 | batch 62/625 | loss 1.5919 | 723ms/batch | ETA 6.8min
+  [11:08:46] Epoch 1 | batch 124/625 | loss 1.5703 | 669ms/batch | ETA 5.6min
+  [11:09:28] Epoch 1 | batch 186/625 | loss 1.5607 | 672ms/batch | ETA 4.9min
+  [11:10:09] Epoch 1 | batch 248/625 | loss 1.5586 | 675ms/batch | ETA 4.2min
+  [11:10:51] Epoch 1 | batch 310/625 | loss 1.5560 | 674ms/batch | ETA 3.5min
+  [11:11:33] Epoch 1 | batch 372/625 | loss 1.5525 | 673ms/batch | ETA 2.8min
+  [11:12:15] Epoch 1 | batch 434/625 | loss 1.5521 | 674ms/batch | ETA 2.1min
+  [11:12:57] Epoch 1 | batch 496/625 | loss 1.5519 | 675ms/batch | ETA 1.5min
+  [11:13:38] Epoch 1 | batch 558/625 | loss 1.5475 | 674ms/batch | ETA 0.8min
+  [11:14:20] Epoch 1 | batch 620/625 | loss 1.5448 | 675ms/batch | ETA 0.1min
+[11:14:32] Epoch   1/10 | Loss: 1.5447 | CER: 0.5537 | Time: 424.0s | 678ms/batch
+  [11:15:14] Epoch 2 | batch 62/625 | loss 1.5078 | 679ms/batch | ETA 6.4min
+  [11:15:56] Epoch 2 | batch 124/625 | loss 1.5091 | 676ms/batch | ETA 5.6min
+  [11:16:37] Epoch 2 | batch 186/625 | loss 1.4984 | 674ms/batch | ETA 4.9min
+  [11:17:19] Epoch 2 | batch 248/625 | loss 1.5012 | 675ms/batch | ETA 4.2min
+  [11:18:01] Epoch 2 | batch 310/625 | loss 1.4989 | 676ms/batch | ETA 3.5min
+  [11:18:43] Epoch 2 | batch 372/625 | loss 1.4953 | 676ms/batch | ETA 2.9min
+  [11:19:25] Epoch 2 | batch 434/625 | loss 1.4983 | 678ms/batch | ETA 2.2min
+  [11:20:07] Epoch 2 | batch 496/625 | loss 1.4960 | 678ms/batch | ETA 1.5min
+  [11:20:49] Epoch 2 | batch 558/625 | loss 1.4938 | 678ms/batch | ETA 0.8min
+  [11:21:31] Epoch 2 | batch 620/625 | loss 1.4905 | 677ms/batch | ETA 0.1min
+[11:21:38] Epoch   2/10 | Loss: 1.4903 | CER: 0.5302 | Time: 422.9s | 677ms/batch
+  [best] Saved model (CER=0.5302)
+  [11:22:20] Epoch 3 | batch 62/625 | loss 1.4515 | 681ms/batch | ETA 6.4min
+  [11:23:02] Epoch 3 | batch 124/625 | loss 1.4590 | 675ms/batch | ETA 5.6min
+  [11:23:44] Epoch 3 | batch 186/625 | loss 1.4607 | 676ms/batch | ETA 4.9min
+  [11:24:26] Epoch 3 | batch 248/625 | loss 1.4536 | 674ms/batch | ETA 4.2min
+  [11:25:07] Epoch 3 | batch 310/625 | loss 1.4523 | 674ms/batch | ETA 3.5min
+  [11:25:49] Epoch 3 | batch 372/625 | loss 1.4468 | 673ms/batch | ETA 2.8min
+  [11:26:31] Epoch 3 | batch 434/625 | loss 1.4430 | 673ms/batch | ETA 2.1min
+  [11:27:13] Epoch 3 | batch 496/625 | loss 1.4389 | 675ms/batch | ETA 1.5min
+  [11:27:54] Epoch 3 | batch 558/625 | loss 1.4408 | 674ms/batch | ETA 0.8min
+  [11:28:36] Epoch 3 | batch 620/625 | loss 1.4393 | 674ms/batch | ETA 0.1min
+[11:28:43] Epoch   3/10 | Loss: 1.4391 | CER: 0.5089 | Time: 421.8s | 675ms/batch
+  [best] Saved model (CER=0.5089)
+  [11:29:25] Epoch 4 | batch 62/625 | loss 1.4071 | 680ms/batch | ETA 6.4min
+  [11:30:07] Epoch 4 | batch 124/625 | loss 1.4144 | 674ms/batch | ETA 5.6min
+  [11:30:49] Epoch 4 | batch 186/625 | loss 1.4154 | 674ms/batch | ETA 4.9min
+  [11:31:31] Epoch 4 | batch 248/625 | loss 1.4108 | 673ms/batch | ETA 4.2min
+  [11:32:12] Epoch 4 | batch 310/625 | loss 1.4070 | 673ms/batch | ETA 3.5min
+  [11:32:54] Epoch 4 | batch 372/625 | loss 1.4017 | 673ms/batch | ETA 2.8min
+  [11:33:36] Epoch 4 | batch 434/625 | loss 1.3976 | 676ms/batch | ETA 2.2min
+  [11:34:18] Epoch 4 | batch 496/625 | loss 1.3960 | 673ms/batch | ETA 1.4min
+  [11:34:59] Epoch 4 | batch 558/625 | loss 1.3950 | 674ms/batch | ETA 0.8min
+  [11:35:41] Epoch 4 | batch 620/625 | loss 1.3922 | 674ms/batch | ETA 0.1min
+[11:35:48] Epoch   4/10 | Loss: 1.3913 | CER: 0.4979 | Time: 421.5s | 674ms/batch
+  [best] Saved model (CER=0.4979)
+  [11:36:30] Epoch 5 | batch 62/625 | loss 1.3734 | 679ms/batch | ETA 6.4min
+  [11:37:12] Epoch 5 | batch 124/625 | loss 1.3655 | 675ms/batch | ETA 5.6min
+  [11:37:54] Epoch 5 | batch 186/625 | loss 1.3622 | 673ms/batch | ETA 4.9min
+  [11:38:35] Epoch 5 | batch 248/625 | loss 1.3557 | 674ms/batch | ETA 4.2min
+  [11:39:17] Epoch 5 | batch 310/625 | loss 1.3559 | 675ms/batch | ETA 3.5min
+  [11:39:59] Epoch 5 | batch 372/625 | loss 1.3546 | 675ms/batch | ETA 2.8min
+  [11:40:41] Epoch 5 | batch 434/625 | loss 1.3529 | 675ms/batch | ETA 2.1min
+  [11:41:23] Epoch 5 | batch 496/625 | loss 1.3476 | 674ms/batch | ETA 1.5min
+  [11:42:05] Epoch 5 | batch 558/625 | loss 1.3457 | 676ms/batch | ETA 0.8min
+  [11:42:47] Epoch 5 | batch 620/625 | loss 1.3426 | 674ms/batch | ETA 0.1min
+[11:42:53] Epoch   5/10 | Loss: 1.3425 | CER: 0.5111 | Time: 422.0s | 675ms/batch
+  Target : LET TRANSMIT ITS XRAY
+  Decoded: LET TA 
+
+  Target : RECEIVE LIMA SEE NOW ECHO
+  Decoded: RECEIVE   
+
+  Target : ONE SIGNAL NOW VICTOR T
+  Decoded: ONE SIG O 
+
+  Target : ZULU HIS UNIFORM DAY
+  Decoded: ZULU   
+
+  [11:43:36] Epoch 6 | batch 62/625 | loss 1.3186 | 682ms/batch | ETA 6.4min
+  [11:44:18] Epoch 6 | batch 124/625 | loss 1.3138 | 675ms/batch | ETA 5.6min
+  [11:45:00] Epoch 6 | batch 186/625 | loss 1.3135 | 675ms/batch | ETA 4.9min
+  [11:45:42] Epoch 6 | batch 248/625 | loss 1.3152 | 675ms/batch | ETA 4.2min
+  [11:46:23] Epoch 6 | batch 310/625 | loss 1.3108 | 675ms/batch | ETA 3.5min
+  [11:47:05] Epoch 6 | batch 372/625 | loss 1.3055 | 675ms/batch | ETA 2.8min
+  [11:47:47] Epoch 6 | batch 434/625 | loss 1.3057 | 676ms/batch | ETA 2.2min
+  [11:48:29] Epoch 6 | batch 496/625 | loss 1.3025 | 675ms/batch | ETA 1.5min
+  [11:49:11] Epoch 6 | batch 558/625 | loss 1.2987 | 674ms/batch | ETA 0.8min
+  [11:49:53] Epoch 6 | batch 620/625 | loss 1.2988 | 676ms/batch | ETA 0.1min
+[11:49:59] Epoch   6/10 | Loss: 1.2982 | CER: 0.4930 | Time: 422.3s | 676ms/batch
+  [best] Saved model (CER=0.4930)
+  [11:50:41] Epoch 7 | batch 62/625 | loss 1.2623 | 680ms/batch | ETA 6.4min
+  [11:51:23] Epoch 7 | batch 124/625 | loss 1.2596 | 675ms/batch | ETA 5.6min
+  [11:52:05] Epoch 7 | batch 186/625 | loss 1.2637 | 675ms/batch | ETA 4.9min
+  [11:52:47] Epoch 7 | batch 248/625 | loss 1.2652 | 675ms/batch | ETA 4.2min
+  [11:53:29] Epoch 7 | batch 310/625 | loss 1.2670 | 675ms/batch | ETA 3.5min
+  [11:54:11] Epoch 7 | batch 372/625 | loss 1.2656 | 676ms/batch | ETA 2.9min
+  [11:54:53] Epoch 7 | batch 434/625 | loss 1.2650 | 675ms/batch | ETA 2.1min
+  [11:55:34] Epoch 7 | batch 496/625 | loss 1.2651 | 675ms/batch | ETA 1.5min
+  [11:56:16] Epoch 7 | batch 558/625 | loss 1.2642 | 674ms/batch | ETA 0.8min
+  [11:56:58] Epoch 7 | batch 620/625 | loss 1.2643 | 675ms/batch | ETA 0.1min
+[11:57:05] Epoch   7/10 | Loss: 1.2639 | CER: 0.4873 | Time: 422.1s | 675ms/batch
+  [best] Saved model (CER=0.4873)
+  [11:57:47] Epoch 8 | batch 62/625 | loss 1.2466 | 679ms/batch | ETA 6.4min
+  [11:58:29] Epoch 8 | batch 124/625 | loss 1.2275 | 677ms/batch | ETA 5.6min
+  [11:59:11] Epoch 8 | batch 186/625 | loss 1.2322 | 676ms/batch | ETA 4.9min
+  [11:59:53] Epoch 8 | batch 248/625 | loss 1.2348 | 675ms/batch | ETA 4.2min
+  [12:00:35] Epoch 8 | batch 310/625 | loss 1.2375 | 675ms/batch | ETA 3.5min
+  [12:01:16] Epoch 8 | batch 372/625 | loss 1.2391 | 677ms/batch | ETA 2.9min
+  [12:01:58] Epoch 8 | batch 434/625 | loss 1.2382 | 675ms/batch | ETA 2.1min
+  [12:02:40] Epoch 8 | batch 496/625 | loss 1.2343 | 675ms/batch | ETA 1.5min
+  [12:03:22] Epoch 8 | batch 558/625 | loss 1.2342 | 675ms/batch | ETA 0.8min
+  [12:04:04] Epoch 8 | batch 620/625 | loss 1.2346 | 675ms/batch | ETA 0.1min
+[12:04:11] Epoch   8/10 | Loss: 1.2345 | CER: 0.5004 | Time: 422.5s | 676ms/batch
+  [12:04:53] Epoch 9 | batch 62/625 | loss 1.2464 | 681ms/batch | ETA 6.4min
+  [12:05:35] Epoch 9 | batch 124/625 | loss 1.2265 | 675ms/batch | ETA 5.6min
+  [12:06:17] Epoch 9 | batch 186/625 | loss 1.2201 | 675ms/batch | ETA 4.9min
+  [12:06:58] Epoch 9 | batch 248/625 | loss 1.2168 | 675ms/batch | ETA 4.2min
+  [12:07:40] Epoch 9 | batch 310/625 | loss 1.2149 | 675ms/batch | ETA 3.5min
+  [12:08:22] Epoch 9 | batch 372/625 | loss 1.2142 | 676ms/batch | ETA 2.9min
+  [12:09:04] Epoch 9 | batch 434/625 | loss 1.2132 | 674ms/batch | ETA 2.1min
+  [12:09:46] Epoch 9 | batch 496/625 | loss 1.2133 | 674ms/batch | ETA 1.4min
+  [12:10:28] Epoch 9 | batch 558/625 | loss 1.2135 | 674ms/batch | ETA 0.8min
+  [12:11:09] Epoch 9 | batch 620/625 | loss 1.2121 | 675ms/batch | ETA 0.1min
+[12:11:16] Epoch   9/10 | Loss: 1.2120 | CER: 0.4660 | Time: 422.1s | 675ms/batch
+  [best] Saved model (CER=0.4660)
+  [12:11:58] Epoch 10 | batch 62/625 | loss 1.2224 | 681ms/batch | ETA 6.4min
+  [12:12:40] Epoch 10 | batch 124/625 | loss 1.2109 | 676ms/batch | ETA 5.6min
+  [12:13:22] Epoch 10 | batch 186/625 | loss 1.2123 | 676ms/batch | ETA 4.9min
+  [12:14:04] Epoch 10 | batch 248/625 | loss 1.2127 | 675ms/batch | ETA 4.2min
+  [12:14:46] Epoch 10 | batch 310/625 | loss 1.2135 | 675ms/batch | ETA 3.5min
+  [12:15:28] Epoch 10 | batch 372/625 | loss 1.2138 | 674ms/batch | ETA 2.8min
+  [12:16:10] Epoch 10 | batch 434/625 | loss 1.2113 | 674ms/batch | ETA 2.1min
+  [12:16:51] Epoch 10 | batch 496/625 | loss 1.2089 | 674ms/batch | ETA 1.4min
+  [12:17:33] Epoch 10 | batch 558/625 | loss 1.2058 | 677ms/batch | ETA 0.8min
+  [12:18:15] Epoch 10 | batch 620/625 | loss 1.2072 | 675ms/batch | ETA 0.1min
+[12:18:22] Epoch  10/10 | Loss: 1.2075 | CER: 0.4768 | Time: 422.2s | 676ms/batch
+  Target : LET TRANSMIT ITS XRAY
+  Decoded: LET TAN  
+
+  Target : RECEIVE LIMA SEE NOW ECH
+  Decoded: RECEIVE    
+
+  Target : ONE SIGNAL NOW VICTOR
+  Decoded: ONE SIG O 
+
+  Target : ZULU HIS UNIFORM DAY
+  Decoded: ZULU   
+
+
+Fine-tuning complete. Best CER: 0.4660
+Device: cuda
+Loaded checkpoint (epoch ft9, CER=0.4660)
+DataLoaders ready
+Building optimizer...
+  [22:29:58] Epoch 1 | batch 62/625 | loss 1.2301 | 702ms/batch | ETA 6.6min
+  [22:30:40] Epoch 1 | batch 124/625 | loss 1.2319 | 671ms/batch | ETA 5.6min
+  [22:31:21] Epoch 1 | batch 186/625 | loss 1.2276 | 674ms/batch | ETA 4.9min
+  [22:32:03] Epoch 1 | batch 248/625 | loss 1.2265 | 675ms/batch | ETA 4.2min
+  [22:32:45] Epoch 1 | batch 310/625 | loss 1.2214 | 675ms/batch | ETA 3.5min
+  [22:33:27] Epoch 1 | batch 372/625 | loss 1.2253 | 677ms/batch | ETA 2.9min
+  [22:34:09] Epoch 1 | batch 434/625 | loss 1.2226 | 676ms/batch | ETA 2.2min
+  [22:34:51] Epoch 1 | batch 496/625 | loss 1.2197 | 678ms/batch | ETA 1.5min
+  [22:35:33] Epoch 1 | batch 558/625 | loss 1.2184 | 677ms/batch | ETA 0.8min
+  [22:36:15] Epoch 1 | batch 620/625 | loss 1.2167 | 677ms/batch | ETA 0.1min
+[22:36:27] Epoch   1/10 | Loss: 1.2160 | CER: 0.4681 | Time: 423.9s | 678ms/batch
+  [22:37:09] Epoch 2 | batch 62/625 | loss 1.1953 | 680ms/batch | ETA 6.4min
+  [22:37:51] Epoch 2 | batch 124/625 | loss 1.1836 | 678ms/batch | ETA 5.7min
+  [22:39:52] Epoch 2 | batch 186/625 | loss 1.1798 | 1958ms/batch | ETA 14.3min
+ing optimizer...
+  [22:40:47] Epoch 1 | batch 62/625 | loss 1.2307 | 2647ms/batch | ETA 24.8min
+Traceback (most recent call last):
+  File "D:\setups\Python\Lib\site-packages\torch\utils\data\dataloader.py", line 1310, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\setups\Python\Lib\multiprocessing\queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\setups\Python\Lib\site-packages\torch\multiprocessing\reductions.py", line 557, in rebuild_storage_filename
+    storage = torch.UntypedStorage._new_shared_filename_cpu(manager, handle, size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Couldn't open shared event: <torch_31788_3607781117_64_event>, error code: <2>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\MorseAI\training\finetune.py", line 211, in <module>
+    finetune(args)
+  File "D:\projects\MorseAI\training\finetune.py", line 98, in finetune
+    for batch_idx, (mels, labels, input_lens, label_lens, _) in enumerate(train_dl):
+  File "D:\setups\Python\Lib\site-packages\torch\utils\data\dataloader.py", line 741, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\setups\Python\Lib\site-packages\torch\utils\data\dataloader.py", line 1524, in _next_data
+    idx, data = self._get_data()
+                ^^^^^^^^^^^^^^^^
+  File "D:\setups\Python\Lib\site-packages\torch\utils\data\dataloader.py", line 1483, in _get_data
+    success, data = self._try_get_data()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "D:\setups\Python\Lib\site-packages\torch\utils\data\dataloader.py", line 1323, in _try_get_data
+    raise RuntimeError(
+RuntimeError: DataLoader worker (pid(s) 31788) exited unexpectedly

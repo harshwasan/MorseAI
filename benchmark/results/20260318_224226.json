@@ -1,0 +1,713 @@
+{
+  "timestamp": "2026-03-18T22:42:03.474835",
+  "checkpoint": "checkpoints/best_model.pt",
+  "synthetic": {
+    "slow_sos_5wpm": {
+      "target": "SOS",
+      "decoded": "N",
+      "wpm": 5,
+      "bucket": "slow",
+      "content_type": "cw_proc",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "slow_cq_6wpm": {
+      "target": "CQ DE K1ABC",
+      "decoded": "CU EE",
+      "wpm": 6,
+      "bucket": "slow",
+      "content_type": "callsign",
+      "cer": 0.7778,
+      "wer": 1.0
+    },
+    "slow_digits_5wpm": {
+      "target": "73",
+      "decoded": "Q",
+      "wpm": 5,
+      "bucket": "slow",
+      "content_type": "digits",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "slow_hello_8wpm": {
+      "target": "HELLO WORLD",
+      "decoded": "HEIAO OO",
+      "wpm": 8,
+      "bucket": "slow",
+      "content_type": "simple",
+      "cer": 0.6,
+      "wer": 1.0
+    },
+    "slow_rst_7wpm": {
+      "target": "RST 599",
+      "decoded": "JAU HBXOO",
+      "wpm": 7,
+      "bucket": "slow",
+      "content_type": "digits",
+      "cer": 1.3333,
+      "wer": 1.0
+    },
+    "med_hello_20wpm": {
+      "target": "HELLO WORLD",
+      "decoded": "U O O",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.8,
+      "wer": 1.5
+    },
+    "med_fox_20wpm": {
+      "target": "THE QUICK BROWN FOX",
+      "decoded": "TRE NAN O",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.75,
+      "wer": 1.0
+    },
+    "med_cq_w1aw_20wpm": {
+      "target": "CQ CQ DE W1AW K",
+      "decoded": "YUY O  O",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "callsign",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "med_rst_serial_18wpm": {
+      "target": "RST 599 NR 001",
+      "decoded": "WS HOO  O U",
+      "wpm": 18,
+      "bucket": "medium",
+      "content_type": "digits",
+      "cer": 0.9091,
+      "wer": 1.0
+    },
+    "med_callsign_20wpm": {
+      "target": "DE K1ABC",
+      "decoded": "DVEO",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "callsign",
+      "cer": 0.8571,
+      "wer": 1.0
+    },
+    "med_nato_15wpm": {
+      "target": "ALPHA BRAVO CHARLIE",
+      "decoded": "RE OL",
+      "wpm": 15,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.8235,
+      "wer": 1.0
+    },
+    "med_numbers_20wpm": {
+      "target": "ONE TWO THREE",
+      "decoded": "TOUE O",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.7273,
+      "wer": 1.0
+    },
+    "med_mixed_20wpm": {
+      "target": "K1ABC 599 5NN TU",
+      "decoded": "CYUR U",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "digits",
+      "cer": 0.8462,
+      "wer": 1.0
+    },
+    "med_sos_repeat_15wpm": {
+      "target": "SOS SOS SOS",
+      "decoded": "O S",
+      "wpm": 15,
+      "bucket": "medium",
+      "content_type": "cw_proc",
+      "cer": 0.7778,
+      "wer": 1.0
+    },
+    "med_qrz_20wpm": {
+      "target": "QRZ DE W1AW",
+      "decoded": "T O",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "cw_proc",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "fast_cq_35wpm": {
+      "target": "CQ CQ DE W1AW",
+      "decoded": "AOUY Y  O",
+      "wpm": 35,
+      "bucket": "fast",
+      "content_type": "callsign",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "fast_test_35wpm": {
+      "target": "TEST DE K1ABC K",
+      "decoded": "EW GNE O L",
+      "wpm": 35,
+      "bucket": "fast",
+      "content_type": "cw_proc",
+      "cer": 0.8333,
+      "wer": 1.0
+    },
+    "fast_fox_30wpm": {
+      "target": "THE QUICK BROWN FOX",
+      "decoded": "TAN NT  O TUET OM",
+      "wpm": 30,
+      "bucket": "fast",
+      "content_type": "simple",
+      "cer": 0.875,
+      "wer": 1.25
+    },
+    "fast_qso_30wpm": {
+      "target": "QSO QRN QRM QSB",
+      "decoded": "TGA T A QA",
+      "wpm": 30,
+      "bucket": "fast",
+      "content_type": "cw_proc",
+      "cer": 0.9167,
+      "wer": 1.0
+    },
+    "fast_digits_30wpm": {
+      "target": "NR 1234",
+      "decoded": "TSE OE",
+      "wpm": 30,
+      "bucket": "fast",
+      "content_type": "digits",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_single_e_20wpm": {
+      "target": "E",
+      "decoded": "",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "edge",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_all_dits_20wpm": {
+      "target": "EEE III SSS",
+      "decoded": "TO",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "edge",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_all_dahs_20wpm": {
+      "target": "TTT MMM OOO",
+      "decoded": "ALL",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "edge",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_digits_only_20wpm": {
+      "target": "1 2 3 4 5 6 7 8 9 0",
+      "decoded": "T O TO OO OO",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "digits",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_ar_sk_bt_20wpm": {
+      "target": "AR SK BT",
+      "decoded": "ALR",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "cw_proc",
+      "cer": 0.8333,
+      "wer": 1.0
+    }
+  },
+  "real": {
+    "real_sos": {
+      "path": "test_audio/sos.mp3",
+      "wpm_est": 20,
+      "decoded": "HO O AOLL SI",
+      "elapsed_s": 0.97,
+      "transcript": "SOS",
+      "cer": 2.3333
+    },
+    "real_alphabet": {
+      "path": "test_audio/alphabet.mp3",
+      "wpm_est": 15,
+      "decoded": "AAE O WLHO",
+      "elapsed_s": 0.6
+    },
+    "real_arrl_5wpm": {
+      "path": "test_audio/arrl_5wpm.mp3",
+      "wpm_est": 5,
+      "decoded": "H O T TARE E TOR  O TY HOOAY SEE E T TOR E YA TE E TAY E O O OU H R TO TO TO T T GE R E TWOE SE NK N TE EE Y OR E ET E PE E AORE E TET NO DY NE E ET A TON E R E TSEE E T OT T O I  OO AO E E AORE E TEE TO TUAY N OO OE SE O    O RI E O ET ON E O N TOE E EY E D E A L E NE UY ONLE E OO L OA AYT NE N NIS E TE N U TNOEW EE O PO",
+      "elapsed_s": 6.09
+    },
+    "real_arrl_15wpm": {
+      "path": "test_audio/arrl_15wpm.mp3",
+      "wpm_est": 15,
+      "decoded": "O O DA N O T L GO ST OE POA Y ITH  O O PAA AOM E WLL TA O NMBOA X PZELDA TO O NE NO DOE  O YA O T RD O AN IS ANA TORR P A SEO  O E  H ITA A O AUE VEN IOOL F",
+      "elapsed_s": 2.4
+    },
+    "real_arrl_20wpm": {
+      "path": "test_audio/arrl_20wpm.mp3",
+      "wpm_est": 20,
+      "decoded": "O O ADU ZOUA SE LE CE  O CO GN PA PII A YO O POU A OVNEACBV O RAAX TOI A EO  O ICODEO TOO AA  O DDO TN HN OUY O TO O LFOO YO N O SEC  O EA TR QZYU O AOE   O AAA SAE O A ANNE O O RUNF ANEAEA A TAE N P   O AUD AND TAL O O IOO  O AOO PXCO SOU O TR E O ZERA X TACH A HCA RA TOOT U N OO WGO  E O",
+      "elapsed_s": 2.99
+    },
+    "kaggle_cw001": {
+      "path": "data/kaggle_mlmv2/audio/cw001.wav",
+      "wpm_est": null,
+      "decoded": "OO OO OO OO",
+      "elapsed_s": 0.09,
+      "transcript": "W SO NOT SURE WAT TO CHASE",
+      "cer": 0.85
+    },
+    "kaggle_cw005": {
+      "path": "data/kaggle_mlmv2/audio/cw005.wav",
+      "wpm_est": null,
+      "decoded": "OO OO RO OMMGN",
+      "elapsed_s": 0.13,
+      "transcript": "WC2K WHO IS ONE OF THE OWNERS I THINK IS IN A GROUP IM IN ON 75 SSB",
+      "cer": 0.84
+    },
+    "kaggle_cw010": {
+      "path": "data/kaggle_mlmv2/audio/cw010.wav",
+      "wpm_est": null,
+      "decoded": "O O",
+      "elapsed_s": 0.1,
+      "transcript": "HEBN AROUND HERELONG TIME ES FB FELLOW",
+      "cer": 0.9375
+    },
+    "kaggle_cw014": {
+      "path": "data/kaggle_mlmv2/audio/cw014.wav",
+      "wpm_est": null,
+      "decoded": "OO OO OO OO OO OO OO OO T",
+      "elapsed_s": 0.12,
+      "transcript": "R DE WA3MIX WL GUD CHRISTMAS YR ES QUIET NEW YR",
+      "cer": 0.973
+    },
+    "kaggle_cw017": {
+      "path": "data/kaggle_mlmv2/audio/cw017.wav",
+      "wpm_est": null,
+      "decoded": "OO OO OO OO OO",
+      "elapsed_s": 0.08,
+      "transcript": "GESS I NEED TO GV HIM A CALL",
+      "cer": 0.9524
+    },
+    "kaggle_cw023": {
+      "path": "data/kaggle_mlmv2/audio/cw023.wav",
+      "wpm_est": null,
+      "decoded": "OT OO OO O OO OEYO ROO OOT OO",
+      "elapsed_s": 0.2,
+      "transcript": "OK WONT KEEP U MNI TNX FER QSO ES BCNUAGN SN LOU 73 ES HNY CUL GE SK WA3MIX DE N2ATB SK TU E E",
+      "cer": 0.9
+    },
+    "kaggle_cw025": {
+      "path": "data/kaggle_mlmv2/audio/cw025.wav",
+      "wpm_est": null,
+      "decoded": "OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO",
+      "elapsed_s": 0.25,
+      "transcript": "IK QSL CARL ES UR SIG UP NOW 599 HI 73 DE K0SKC EE 73 EE",
+      "cer": 0.9756
+    },
+    "kaggle_cw029": {
+      "path": "data/kaggle_mlmv2/audio/cw029.wav",
+      "wpm_est": null,
+      "decoded": "TO ECHO  O E N",
+      "elapsed_s": 0.13,
+      "transcript": "K1MS/B FN42 K1MS/B FN42",
+      "cer": 0.95
+    },
+    "kaggle_cw034": {
+      "path": "data/kaggle_mlmv2/audio/cw034.wav",
+      "wpm_est": null,
+      "decoded": "OOI O TE E",
+      "elapsed_s": 0.13,
+      "transcript": "THEN I D BOUGHT ONE OF THE FIRST KNWD TS580S",
+      "cer": 0.8571
+    },
+    "kaggle_cw036": {
+      "path": "data/kaggle_mlmv2/audio/cw036.wav",
+      "wpm_est": null,
+      "decoded": "OO TO T T OE TNNO  O OT O TAC WUO O OO OR OOO",
+      "elapsed_s": 0.19,
+      "transcript": "WHILE I W E E E E IT WAS DE BEING REPAIRED BY KNWD I BOUGHT A K3 KIT",
+      "cer": 0.9
+    },
+    "kaggle_cw037": {
+      "path": "data/kaggle_mlmv2/audio/cw037.wav",
+      "wpm_est": null,
+      "decoded": "O AO TO ON",
+      "elapsed_s": 0.16,
+      "transcript": "I LIKED IT SO MUCH I SOLD MY TS580 AFTER IT WAS REPAIRED",
+      "cer": 0.9318
+    },
+    "kaggle_cw038": {
+      "path": "data/kaggle_mlmv2/audio/cw038.wav",
+      "wpm_est": null,
+      "decoded": "WAMAN OX",
+      "elapsed_s": 0.08,
+      "transcript": "BN USING ELECRAFT EVER SINCE",
+      "cer": 0.9167
+    },
+    "kaggle_cw039": {
+      "path": "data/kaggle_mlmv2/audio/cw039.wav",
+      "wpm_est": null,
+      "decoded": "GFOX AR   O OMAO",
+      "elapsed_s": 0.16,
+      "transcript": "FB ON UR WORK INFO BT I WORK IN THE SEMICONDUCTOR INDUSTRY",
+      "cer": 0.8723
+    },
+    "kaggle_cw044": {
+      "path": "data/kaggle_mlmv2/audio/cw044.wav",
+      "wpm_est": null,
+      "decoded": "O O WUR W OO WO MO TOO OO WAO ITO T EE T OO O",
+      "elapsed_s": 0.2,
+      "transcript": "THAT SOUNDS LIKE A GOOD DEAR TO ME AND IF I EVER DOIT I WILL THINK OF GOING ET THAT WAY",
+      "cer": 0.8209
+    },
+    "kaggle_cw047": {
+      "path": "data/kaggle_mlmv2/audio/cw047.wav",
+      "wpm_est": null,
+      "decoded": "OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O",
+      "elapsed_s": 0.23,
+      "transcript": "OK HOWARD TNX FOR SHOP NGUP AND I THINK I CAN BE AROUND TMW 73 FOR NOW WA1CFX DE WR1C K",
+      "cer": 0.8955
+    },
+    "kaggle_cw050": {
+      "path": "data/kaggle_mlmv2/audio/cw050.wav",
+      "wpm_est": null,
+      "decoded": "TO O WGOMY E OLO TYCO WRAY TN O O SIDO O U T O O OSE CU O O AU",
+      "elapsed_s": 0.44,
+      "transcript": "RR JIM CO N4BP W8FW W9RE BOB FL TU N4BP # N1 # N1AM BOB FL TU N4BP W7FW #7 W7FW W7FW BOB FL TNX AD AZ ? AD NAME? AD AZ TU N4BP",
+      "cer": 0.871
+    },
+    "kaggle_cw052": {
+      "path": "data/kaggle_mlmv2/audio/cw052.wav",
+      "wpm_est": null,
+      "decoded": "A AO E POXLRO R A NHE A O IOOE",
+      "elapsed_s": 0.18,
+      "transcript": "CQ NA K4LTA K4LTA NA CQ NA K4LTA K4LTA NA AE6Q AE6Y AE6Y BILL TN TU N# CA 73 K4LTA NA",
+      "cer": 0.8769
+    },
+    "kaggle_cw057": {
+      "path": "data/kaggle_mlmv2/audio/cw057.wav",
+      "wpm_est": null,
+      "decoded": "ONI OT OO OO O OOTT OUO TN OTO",
+      "elapsed_s": 0.14,
+      "transcript": "TRANSMITTERS FROM THE 50S AND 60S REQUIRE SEVERAL VOLTS PEAK TO PEAK P P OF",
+      "cer": 0.8361
+    },
+    "kaggle_cw060": {
+      "path": "data/kaggle_mlmv2/audio/cw060.wav",
+      "wpm_est": null,
+      "decoded": "PDEO OODAH O CU IE PC",
+      "elapsed_s": 0.12,
+      "transcript": "POPULAR DIGITAL MODES FOR EMERGENCY COMMUNICATIONS NBEMS NARROW BAND",
+      "cer": 0.85
+    },
+    "kaggle_cw063": {
+      "path": "data/kaggle_mlmv2/audio/cw063.wav",
+      "wpm_est": null,
+      "decoded": "T OUR E AO W A OO O",
+      "elapsed_s": 0.08,
+      "transcript": "SHOWS THE DDS BOARD BUFFER AMPLIFIER AND KEYING INPUT. I WANTED TO USE",
+      "cer": 0.8448
+    },
+    "kaggle_cw065": {
+      "path": "data/kaggle_mlmv2/audio/cw065.wav",
+      "wpm_est": null,
+      "decoded": "PLCA A CAND EO ITS A O O P",
+      "elapsed_s": 0.21,
+      "transcript": "PERSPECTIVE. THE FIRST FEW CHAPTERS CONCERN THE BASIS AND PURPOSE OF",
+      "cer": 0.8103
+    },
+    "kaggle_cw070": {
+      "path": "data/kaggle_mlmv2/audio/cw070.wav",
+      "wpm_est": null,
+      "decoded": "OO OO O  O OT OO E",
+      "elapsed_s": 0.09,
+      "transcript": "IS COMPRISED OF 12 16 STRANDED WIRES EACH 24 FEET 4 INCHES 8 METERS LONG",
+      "cer": 0.931
+    },
+    "kaggle_cw072": {
+      "path": "data/kaggle_mlmv2/audio/cw072.wav",
+      "wpm_est": null,
+      "decoded": "O OR T O O OO O O OO OO OO O T OO",
+      "elapsed_s": 0.2,
+      "transcript": "XCLDG. PRTISG CFC1ZG GEA/QN 59UN8X /2R154 IZ4QAN HGTI TI2GIE",
+      "cer": 0.9423
+    },
+    "kaggle_cw081": {
+      "path": "data/kaggle_mlmv2/audio/cw081.wav",
+      "wpm_est": null,
+      "decoded": "OOOO O O  OOO O OO OOOO T O O E T  OO OOR TOOOOO T T O O OYT R O OO T OOO REE   O TOOA",
+      "elapsed_s": 0.26,
+      "transcript": "28SK IRXX AUXG 23Z5 ZGBB M161 AAX0XL EIT FOT3",
+      "cer": 1.4054
+    },
+    "kaggle_cw089": {
+      "path": "data/kaggle_mlmv2/audio/cw089.wav",
+      "wpm_est": null,
+      "decoded": "TOEOT ER ON EEE  O OE T TRN TO NE OT OO OO OO OO E OXMY T OKE TRO   O",
+      "elapsed_s": 0.24,
+      "transcript": "AND EFFECTIVELY ON THE DISASTER SCENE.  THE UBIQUITOUS INCIDENT COMMAND",
+      "cer": 0.7541
+    },
+    "kaggle_cw096": {
+      "path": "data/kaggle_mlmv2/audio/cw096.wav",
+      "wpm_est": null,
+      "decoded": "ONT OE ONE E",
+      "elapsed_s": 0.08,
+      "transcript": "PLAYERS ON THE SAME PAGE REGARDLESS OF THE SIZE OF THE INCIDENT.  WHETHER",
+      "cer": 0.85
+    },
+    "kaggle_cw104": {
+      "path": "data/kaggle_mlmv2/audio/cw104.wav",
+      "wpm_est": null,
+      "decoded": "OT N O",
+      "elapsed_s": 0.09,
+      "transcript": "UB2JRE 2N4H NBYS8 UC3P/OH5 8RO? K4O5 HTTM9T3 JNHC/XM",
+      "cer": 0.9333
+    },
+    "kaggle_cw108": {
+      "path": "data/kaggle_mlmv2/audio/cw108.wav",
+      "wpm_est": null,
+      "decoded": "OO IDA I AOE O OIA T N AYTOO",
+      "elapsed_s": 0.12,
+      "transcript": "SHOPPING LIST.  IT HAS BEEN A BUSY AND DEMANDING YEAR IN TERMS OF MAJOR",
+      "cer": 0.807
+    },
+    "kaggle_cw112": {
+      "path": "data/kaggle_mlmv2/audio/cw112.wav",
+      "wpm_est": null,
+      "decoded": "TEYO O O T O",
+      "elapsed_s": 0.06,
+      "transcript": "THE 12 VOLTAGE TRANSFORMER.  THE NEED F",
+      "cer": 0.8438
+    },
+    "kaggle_cw116": {
+      "path": "data/kaggle_mlmv2/audio/cw116.wav",
+      "wpm_est": null,
+      "decoded": "EY TR OE O WOTOO T TOO XRTO",
+      "elapsed_s": 0.09,
+      "transcript": "SGLF? .D5B0 3F9W8 29CCC JW7J2 SBOT3 4SO95 EAVJE HZUKY BURAH",
+      "cer": 0.9
+    },
+    "kaggle_cw118": {
+      "path": "data/kaggle_mlmv2/audio/cw118.wav",
+      "wpm_est": null,
+      "decoded": "TOT OO T O T OO",
+      "elapsed_s": 0.08,
+      "transcript": "THE SCHEMATIC IN FIGURE 5.  I THEN ADDED A DC ISOLATING 0R01 UF CERAMIC",
+      "cer": 0.9123
+    },
+    "kaggle_cw120": {
+      "path": "data/kaggle_mlmv2/audio/cw120.wav",
+      "wpm_est": null,
+      "decoded": "IE U IO O ITER TA ERA O  O",
+      "elapsed_s": 0.12,
+      "transcript": "RIVAL THE SIGNAL QUALITY OF A MODERN TRANSCEIVER WITH THIS VFO.  FOR",
+      "cer": 0.7679
+    },
+    "kaggle_cw126": {
+      "path": "data/kaggle_mlmv2/audio/cw126.wav",
+      "wpm_est": null,
+      "decoded": "OOTR OO IN TOO O OO OU T R TN O OX T TE TOOO R OOO TO OOOOOO ANRWD E EYT O TE TOOO EAT O EO WT OO ORDW TT TO TOOOW T OO TO   O OO TOOT TE OO O TOOE OOOO O TO E O TEO T OOEOOO",
+      "elapsed_s": 0.42,
+      "transcript": "CONNECTIONS GIVE YOU MORE FREEDOM WHEN MOUNTING THE CIRCUIT BOARD AND",
+      "cer": 1.678
+    },
+    "kaggle_cw131": {
+      "path": "data/kaggle_mlmv2/audio/cw131.wav",
+      "wpm_est": null,
+      "decoded": "BOR OT OU EA ECA O T O",
+      "elapsed_s": 0.1,
+      "transcript": "BOSTON MARATHON FOR EXAMPLES OF CRITICAL EMERGENCIES  THE GOVERNMENT IN",
+      "cer": 0.8033
+    },
+    "kaggle_cw134": {
+      "path": "data/kaggle_mlmv2/audio/cw134.wav",
+      "wpm_est": null,
+      "decoded": "T NN R O TTOON IT N Z",
+      "elapsed_s": 0.08,
+      "transcript": "RELATED COMPONENTS.  SYNTHESIZER OUTPUT LEVEL CRYSTAL CONTROLLED",
+      "cer": 0.8421
+    },
+    "kaggle_cw138": {
+      "path": "data/kaggle_mlmv2/audio/cw138.wav",
+      "wpm_est": null,
+      "decoded": "O OO O T O OO OO OO O OO",
+      "elapsed_s": 0.13,
+      "transcript": "STRAIGHT KEY NIGHT I WANTED TO PUT MY 51 YEAR OLD EICO 729 TRANSMITTER ON",
+      "cer": 0.9153
+    },
+    "kaggle_cw141": {
+      "path": "data/kaggle_mlmv2/audio/cw141.wav",
+      "wpm_est": null,
+      "decoded": "O O O OT T O OO",
+      "elapsed_s": 0.12,
+      "transcript": "OMLM FNPBD 9FVYF 8AYNB 7FUP6 QQ8YI ?EAIU 2764P 2D7X5 SESOB",
+      "cer": 0.9592
+    },
+    "kaggle_cw143": {
+      "path": "data/kaggle_mlmv2/audio/cw143.wav",
+      "wpm_est": null,
+      "decoded": "OO O  O O OO OO O",
+      "elapsed_s": 0.11,
+      "transcript": "THIS IN THE MARCH 2010 ISSUE OF QST WHICH IS AVAILABLE FOR DOWNLOAD TO",
+      "cer": 0.9123
+    },
+    "kaggle_cw148": {
+      "path": "data/kaggle_mlmv2/audio/cw148.wav",
+      "wpm_est": null,
+      "decoded": "T  O O T E O WAO T E TO O WOU T",
+      "elapsed_s": 0.1,
+      "transcript": "TWO OF MY FAVORITE CHAPTERS IN THIS BOOK ARE CHAPTERS 20 AND 22 ON THE",
+      "cer": 0.7679
+    },
+    "kaggle_cw154": {
+      "path": "data/kaggle_mlmv2/audio/cw154.wav",
+      "wpm_est": null,
+      "decoded": "OO T O T T OO O I T",
+      "elapsed_s": 0.14,
+      "transcript": "GENERATOR. VFO OVERVIEW MY EICO 723 TRANSMITTER HAS A SPECIAL INPUT FOR AN",
+      "cer": 0.8871
+    },
+    "kaggle_cw162": {
+      "path": "data/kaggle_mlmv2/audio/cw162.wav",
+      "wpm_est": null,
+      "decoded": "OO OO O OO OO OO OO",
+      "elapsed_s": 0.11,
+      "transcript": "DDS CIRCUIT I CHOSE THE N3ZI DDS 2 DELUXE KIT WHICH FEATURES THE STANDARD",
+      "cer": 0.9833
+    },
+    "kaggle_cw164": {
+      "path": "data/kaggle_mlmv2/audio/cw164.wav",
+      "wpm_est": null,
+      "decoded": "JUNOR TOO GE T E E N  O OOS",
+      "elapsed_s": 0.1,
+      "transcript": "RADIALS WITH THE GROUND LEVEL RADIALS USED HERE.  MY GROUND RADIAL SYSTEM",
+      "cer": 0.8689
+    },
+    "kaggle_cw166": {
+      "path": "data/kaggle_mlmv2/audio/cw166.wav",
+      "wpm_est": null,
+      "decoded": "NT ANT  O YOU O ITNE KA JA",
+      "elapsed_s": 0.09,
+      "transcript": "T4RUY LFFF 3EK0I Y5IY7 UC1OQ 0R?DS ODAB/ GTHWF N714Y K1F/4",
+      "cer": 0.8776
+    },
+    "kaggle_cw168": {
+      "path": "data/kaggle_mlmv2/audio/cw168.wav",
+      "wpm_est": null,
+      "decoded": "O OO O OO O OO OO O T O O OO O OO O T OO O OO OO OO OO OO OO",
+      "elapsed_s": 0.38,
+      "transcript": "MOUNTED THREE RADIALS TO EACH OF THE FOUR GROUND POSTS ON THE ADAPTER",
+      "cer": 0.8596
+    },
+    "kaggle_cw171": {
+      "path": "data/kaggle_mlmv2/audio/cw171.wav",
+      "wpm_est": null,
+      "decoded": "CYANE DO TOIE TE O E PZ",
+      "elapsed_s": 0.09,
+      "transcript": "YOU MUST FIRST PURCHASE AND BUILD THE SYNTHESIZER AND GET IT WORKING",
+      "cer": 0.8421
+    },
+    "kaggle_cw173": {
+      "path": "data/kaggle_mlmv2/audio/cw173.wav",
+      "wpm_est": null,
+      "decoded": "OO O O T OO",
+      "elapsed_s": 0.11,
+      "transcript": "LAID OUT ON THE GROUND I CHOSE WIRE WITH BRIGHT YELLOW INSULATION TO",
+      "cer": 0.875
+    },
+    "kaggle_cw175": {
+      "path": "data/kaggle_mlmv2/audio/cw175.wav",
+      "wpm_est": null,
+      "decoded": "TEE O O WO O OT T O OO  O OO TO O O O OIM TE   O OO T  O AREWGET OST E",
+      "elapsed_s": 0.16,
+      "transcript": "RECOMMENDS 10 20 V AT THE VFO INPUT. THE SYNTHESIZER OUTPUT HOWEVER",
+      "cer": 0.7857
+    },
+    "kaggle_cw176": {
+      "path": "data/kaggle_mlmv2/audio/cw176.wav",
+      "wpm_est": null,
+      "decoded": "N O PZ",
+      "elapsed_s": 0.08,
+      "transcript": "SLAMMING INTO THE GULF STATES OR A MAJOR EARTHQUAKE ALONG THE NEW MADRID",
+      "cer": 0.9667
+    },
+    "kaggle_cw180": {
+      "path": "data/kaggle_mlmv2/audio/cw180.wav",
+      "wpm_est": null,
+      "decoded": "O O OT OOT O NT OTT",
+      "elapsed_s": 0.11,
+      "transcript": "I WAS ABLE TO ATTEND THE FIRST DEPARTMENT OF HOMELAND SECURITY DHS",
+      "cer": 0.8727
+    },
+    "kaggle_cw181": {
+      "path": "data/kaggle_mlmv2/audio/cw181.wav",
+      "wpm_est": null,
+      "decoded": "HOO O OO ME T OO OO OO OSE XR MOO T OO OT OOO OT OOO TE T  O A OO O O O A  O O ET OO U E OOO TXR TOOO TOO OO AO OO TO O O Z",
+      "elapsed_s": 0.3,
+      "transcript": "P0/YH 6JN8? L3LH. T8J68 ZT?44 HS4E4 5V4.M R5JFQ IIWA? LCHGR",
+      "cer": 1.48
+    },
+    "kaggle_cw186": {
+      "path": "data/kaggle_mlmv2/audio/cw186.wav",
+      "wpm_est": null,
+      "decoded": "TEE O OO OO N O OTO OO OOO M OO OOOO TOO GOO OO A O R DE OO O OOO TOTOO EWOOO TONEE OO OOOO OO W TOOOOO OS TET  OO",
+      "elapsed_s": 0.28,
+      "transcript": "TRANSFORMER SHOULD BE PLACED AS CLOSE TO THE TRANSMITTER INPUT AS POSSIBLE",
+      "cer": 1.0317
+    },
+    "kaggle_cw191": {
+      "path": "data/kaggle_mlmv2/audio/cw191.wav",
+      "wpm_est": null,
+      "decoded": "GXR O LI OO A SE E PUOR",
+      "elapsed_s": 0.08,
+      "transcript": "GENERATOR. VFO OVERVIEW MY EICO 727 TRANSMITTER HAS A SPECIAL INPUT FOR AN",
+      "cer": 0.7903
+    },
+    "kaggle_cw196": {
+      "path": "data/kaggle_mlmv2/audio/cw196.wav",
+      "wpm_est": null,
+      "decoded": "OO OO OO OO OO O OO OO OO OO OO OO OO OO",
+      "elapsed_s": 0.21,
+      "transcript": "INCREASE ITS VISIBILITY AND HOPEFULLY REDUCE THE TRIPPING HAZARD.",
+      "cer": 0.9825
+    },
+    "kaggle_cw197": {
+      "path": "data/kaggle_mlmv2/audio/cw197.wav",
+      "wpm_est": null,
+      "decoded": "O O O O TO OO OO OO",
+      "elapsed_s": 0.15,
+      "transcript": "J7F0// BK2O1T 990MD9 94WWWO B6GBZ4 E23AU. CKFNJ3 QU?23E ORSYRD HIYRX2",
+      "cer": 0.9333
+    },
+    "kaggle_cw199": {
+      "path": "data/kaggle_mlmv2/audio/cw199.wav",
+      "wpm_est": null,
+      "decoded": "PCAE YCO O O AL OXULO POU",
+      "elapsed_s": 0.12,
+      "transcript": "PNWVU LQRKL2 A7Y9JF 1E/5AS 7QF/VZ UCHML 5Q/8SH ETGQHT OK22G2 XXF633",
+      "cer": 0.8793
+    }
+  },
+  "bucket_avg": {
+    "slow": 0.9422,
+    "medium": 0.8491,
+    "fast": 0.925,
+    "edge": 0.9667
+  },
+  "overall_synth_cer": 0.9064,
+  "overall_real_cer": 0.9435
+}

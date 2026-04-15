@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-21T01:38:58.444652",
+  "checkpoint": "checkpoints/best_model.pt",
+  "normalize_wpm": true,
+  "kaggle_cer": 0.4732,
+  "kaggle_wer": 0.8675,
+  "arrl_cer": 0.7592,
+  "arrl_wer": 0.8611,
+  "kaggle_v1_cer": 0.4534,
+  "kaggle_v1_wer": 2.5172,
+  "overall_cer": 0.5424
+}

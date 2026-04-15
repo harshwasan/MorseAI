@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-03-19T07:43:00.105471",
+  "checkpoint": "checkpoints/best_model.pt",
+  "synthetic": {
+    "slow_sos_5wpm": {
+      "target": "SOS",
+      "decoded": "N",
+      "wpm": 5,
+      "bucket": "slow",
+      "content_type": "cw_proc",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "slow_cq_6wpm": {
+      "target": "CQ DE K1ABC",
+      "decoded": "CU E OABX",
+      "wpm": 6,
+      "bucket": "slow",
+      "content_type": "callsign",
+      "cer": 0.5556,
+      "wer": 1.0
+    },
+    "slow_digits_5wpm": {
+      "target": "73",
+      "decoded": "QE",
+      "wpm": 5,
+      "bucket": "slow",
+      "content_type": "digits",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "slow_hello_8wpm": {
+      "target": "HELLO WORLD",
+      "decoded": "HELLO OR",
+      "wpm": 8,
+      "bucket": "slow",
+      "content_type": "simple",
+      "cer": 0.3,
+      "wer": 0.5
+    },
+    "slow_rst_7wpm": {
+      "target": "RST 599",
+      "decoded": "REST HO",
+      "wpm": 7,
+      "bucket": "slow",
+      "content_type": "digits",
+      "cer": 0.6667,
+      "wer": 1.0
+    },
+    "med_hello_20wpm": {
+      "target": "HELLO WORLD",
+      "decoded": "HELLO ORD",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.2,
+      "wer": 0.5
+    },
+    "med_fox_20wpm": {
+      "target": "THE QUICK BROWN FOX",
+      "decoded": "THE U BON",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.5625,
+      "wer": 0.75
+    },
+    "med_cq_w1aw_20wpm": {
+      "target": "CQ CQ DE W1AW K",
+      "decoded": "CU O DE WOAW",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "callsign",
+      "cer": 0.4545,
+      "wer": 0.8
+    },
+    "med_rst_serial_18wpm": {
+      "target": "RST 599 NR 001",
+      "decoded": "REST HO AA 3J",
+      "wpm": 18,
+      "bucket": "medium",
+      "content_type": "digits",
+      "cer": 0.8182,
+      "wer": 1.0
+    },
+    "med_callsign_20wpm": {
+      "target": "DE K1ABC",
+      "decoded": "A JC",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "callsign",
+      "cer": 0.7143,
+      "wer": 1.0
+    },
+    "med_nato_15wpm": {
+      "target": "ALPHA BRAVO CHARLIE",
+      "decoded": "ALPHA RAO CH T",
+      "wpm": 15,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.4118,
+      "wer": 1.0
+    },
+    "med_numbers_20wpm": {
+      "target": "ONE TWO THREE",
+      "decoded": "ONE TWO REE",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "simple",
+      "cer": 0.1818,
+      "wer": 0.3333
+    },
+    "med_mixed_20wpm": {
+      "target": "K1ABC 599 5NN TU",
+      "decoded": "AXBLTA TH O HAN",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "digits",
+      "cer": 0.9231,
+      "wer": 1.0
+    },
+    "med_sos_repeat_15wpm": {
+      "target": "SOS SOS SOS",
+      "decoded": "NOT SNOS SOS",
+      "wpm": 15,
+      "bucket": "medium",
+      "content_type": "cw_proc",
+      "cer": 0.3333,
+      "wer": 0.6667
+    },
+    "med_qrz_20wpm": {
+      "target": "QRZ DE W1AW",
+      "decoded": "QUE WOW",
+      "wpm": 20,
+      "bucket": "medium",
+      "content_type": "cw_proc",
+      "cer": 0.5556,
+      "wer": 1.0
+    },
+    "fast_cq_35wpm": {
+      "target": "CQ CQ DE W1AW",
+      "decoded": "CU CO DE WOA",
+      "wpm": 35,
+      "bucket": "fast",
+      "content_type": "callsign",
+      "cer": 0.4,
+      "wer": 0.75
+    },
+    "fast_test_35wpm": {
+      "target": "TEST DE K1ABC K",
+      "decoded": "TEST  OAB",
+      "wpm": 35,
+      "bucket": "fast",
+      "content_type": "cw_proc",
+      "cer": 0.5,
+      "wer": 0.75
+    },
+    "fast_fox_30wpm": {
+      "target": "THE QUICK BROWN FOX",
+      "decoded": "THE QUI BRON O",
+      "wpm": 30,
+      "bucket": "fast",
+      "content_type": "simple",
+      "cer": 0.3125,
+      "wer": 0.75
+    },
+    "fast_qso_30wpm": {
+      "target": "QSO QRN QRM QSB",
+      "decoded": "GNN RM",
+      "wpm": 30,
+      "bucket": "fast",
+      "content_type": "cw_proc",
+      "cer": 0.75,
+      "wer": 1.0
+    },
+    "fast_digits_30wpm": {
+      "target": "NR 1234",
+      "decoded": "X J",
+      "wpm": 30,
+      "bucket": "fast",
+      "content_type": "digits",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_single_e_20wpm": {
+      "target": "E",
+      "decoded": "",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "edge",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_all_dits_20wpm": {
+      "target": "EEE III SSS",
+      "decoded": "S",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "edge",
+      "cer": 0.8889,
+      "wer": 1.0
+    },
+    "edge_all_dahs_20wpm": {
+      "target": "TTT MMM OOO",
+      "decoded": "TOT OO",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "edge",
+      "cer": 0.5556,
+      "wer": 1.0
+    },
+    "edge_digits_only_20wpm": {
+      "target": "1 2 3 4 5 6 7 8 9 0",
+      "decoded": "",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "digits",
+      "cer": 1.0,
+      "wer": 1.0
+    },
+    "edge_ar_sk_bt_20wpm": {
+      "target": "AR SK BT",
+      "decoded": "ARCO T",
+      "wpm": 20,
+      "bucket": "edge",
+      "content_type": "cw_proc",
+      "cer": 0.5,
+      "wer": 1.0
+    }
+  },
+  "real": {},
+  "bucket_avg": {
+    "slow": 0.7044,
+    "medium": 0.5155,
+    "fast": 0.5925,
+    "edge": 0.7889
+  },
+  "overall_synth_cer": 0.6234
+}

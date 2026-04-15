@@ -1,0 +1,30 @@
+[18:09:16] Epoch   1/20 | Loss: 52.7385 | CER: 1.0000 | Time: 513.5s | 1095ms/batch
+  [best] Saved model (CER=1.0000)
+[18:18:09] Epoch   2/20 | Loss: 3.7037 | CER: 1.0000 | Time: 525.6s | 1121ms/batch
+[18:27:20] Epoch   3/20 | Loss: 3.6573 | CER: 1.0000 | Time: 541.7s | 1155ms/batch
+[18:36:25] Epoch   4/20 | Loss: 3.6025 | CER: 1.0000 | Time: 535.8s | 1143ms/batch
+[18:44:50] Epoch   5/20 | Loss: 3.5504 | CER: 0.9811 | Time: 496.2s | 1058ms/batch
+  [best] Saved model (CER=0.9811)
+[18:53:20] Epoch   6/20 | Loss: 3.4865 | CER: 0.9429 | Time: 498.8s | 1063ms/batch
+  [best] Saved model (CER=0.9429)
+[19:01:47] Epoch   7/20 | Loss: 3.4342 | CER: 0.9523 | Time: 498.7s | 1063ms/batch
+[19:10:38] Epoch   8/20 | Loss: 3.3766 | CER: 0.9438 | Time: 521.8s | 1112ms/batch
+[19:19:33] Epoch   9/20 | Loss: 3.3241 | CER: 0.9446 | Time: 526.7s | 1123ms/batch
+[19:27:58] Epoch  10/20 | Loss: 3.2695 | CER: 0.9216 | Time: 496.3s | 1058ms/batch
+  [best] Saved model (CER=0.9216)
+[19:36:39] Epoch  11/20 | Loss: 3.2243 | CER: 0.9055 | Time: 509.4s | 1086ms/batch
+  [best] Saved model (CER=0.9055)
+[19:45:25] Epoch  12/20 | Loss: 3.1879 | CER: 0.9017 | Time: 516.6s | 1101ms/batch
+  [best] Saved model (CER=0.9017)
+[19:54:04] Epoch  13/20 | Loss: 3.1556 | CER: 0.9043 | Time: 510.1s | 1088ms/batch
+[20:02:38] Epoch  14/20 | Loss: 3.1230 | CER: 0.9002 | Time: 505.7s | 1078ms/batch
+  [best] Saved model (CER=0.9002)
+[20:11:58] Epoch  15/20 | Loss: 3.1054 | CER: 0.8891 | Time: 550.4s | 1174ms/batch
+  [best] Saved model (CER=0.8891)
+[20:21:17] Epoch  16/20 | Loss: 3.0898 | CER: 0.8893 | Time: 547.3s | 1167ms/batch
+[20:29:55] Epoch  17/20 | Loss: 3.0721 | CER: 0.8845 | Time: 508.8s | 1085ms/batch
+  [best] Saved model (CER=0.8845)
+[20:38:31] Epoch  18/20 | Loss: 3.0635 | CER: 0.8870 | Time: 507.6s | 1082ms/batch
+[20:47:05] Epoch  19/20 | Loss: 3.0555 | CER: 0.8859 | Time: 505.8s | 1078ms/batch
+[20:55:36] Epoch  20/20 | Loss: 3.0512 | CER: 0.8794 | Time: 503.0s | 1073ms/batch
+  [best] Saved model (CER=0.8794)

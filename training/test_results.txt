@@ -1,0 +1,44 @@
+Training complete! Starting Phase 1 tests...
+======================================
+Test run: Tue Mar 17 11:49:52 IST 2026
+======================================
+
+--- Testing: test_audio/sos.mp3 ---
+Model loaded from checkpoints/best_model.pt
+Decoded: O HTS H O S
+
+--- Testing: test_audio/alphabet.mp3 ---
+Model loaded from checkpoints/best_model.pt
+Decoded: ALPHA O NAO EICTGO GAOF COISAO OTROR YOU WH OSAGAER OTOR OTO O
+
+--- Testing: test_audio/arrl_5wpm.mp3 ---
+Model loaded from checkpoints/best_model.pt
+Decoded: B E BE B SEE ESH O E RE AE O OOH HE O SEE T E EH T OB LE L ET EE H EE H E EH E EE W S SE F SS T W E E ET E E E F E E E E T E EH E LE E E SSE W Y O LE B E E E H S FE E F T YE HE WE EE E E E H O TSE E E E E EE EH SEE SE E EEE E SEE  E SEE RRE O E S SE E O E P XR E ET E E E S HE S F C SE EE SEE E E E E E SEE FEE E OE EH E E AE E LE E EE E SE F UEE RE E SE  EH RE E T F E E R E UE SE SEE E EH E E E RO H SE E G HE E E E E EE W ET E E SEE SE E E LE E
+
+--- Testing: test_audio/arrl_15wpm.mp3 ---
+Model loaded from checkpoints/best_model.pt
+Decoded: TH NOW WSE W GOW BUT TW H FA NOW WAY WO O T WA H BHO BUT N UN EIC DA YO DI WHISKE ET ECO LE N A TOO BOY AITS ZULU HW H OW YOU Q HO JAIE THE T TE LET AR HO LE S THE TH SEE A OUR VC TE L E TE L DELA RA AS O PW EW GO OR LIMA B ULNIFAOM ECHO T T PP CA WA SEND SO THE ND OUR HIS CAN IIA IE OUR TE TO LET THE GA AE RA G S TTBE CA H O ACO THE GOL TO O THE IS T SH TH TOO UNNIR L VICT LA EE AND NDI SEE SEL  E B SE ALE TOO I THE BOY NO ECHO THE P S HSILO H PT O DY TO FOR TET GLA SIH BUT AND OUR TOS W T
+
+--- Testing: test_audio/arrl_20wpm.mp3 ---
+Model loaded from checkpoints/best_model.pt
+Decoded: TH NOW O FO B T TEST HE WAY TOO UT CA C BUT TOO O O CA OUR WORL DY SAGN THE H SE  QRAY E ETRE JULIE SE AN CA PUT HE TIY ECHO A OET FTO GET R SIGNAL TBUT O H IND  WOR THE A ROME ON THE B ECO H ROOR AY YONEE WAS TE DAY SAN O ATD THE WORLD LTMA B NOTEL SH WA AND S E OE WE FO FO IETS UNIFOR TOO WO TWA FCTO AE FUT FOXTROT ON JO O GE HW W O EIER UNIFO DID SE ESVE O COE CO BEA BUT THE TH SE BA WAS GNOEBER O WW SIGNAL U O AT FO ON CO BERA AND WAS A ECTS TO OSCAR THE CO OEE FOR L FO NOVME FCTOR SIG NOL YOER Y AHE LU  THE H I MESSAGE O O ETRAHANO BUT WAS N GOL AND ON O AT THE FOR TO CO MOVESMBE XRAY IT EHO O O ECTCHO O E FO NO WAS SEBE ST NOEBEO W W AND AE TOO WORLDE C ET PAPE FO MOME WHO WAS CTCHO XRACTOR AND OUE H W Q CETANGO THE DAY HI I BE AND WOY W O NE BUT E W MOME
+
+--- Synthetic text test (20 WPM) ---
+Model loaded from checkpoints/best_model.pt
+Synthesizing: 'HELLO WORLD'
+Target : HELLO WORLD
+Decoded: HELLO WORLD 
+
+--- Synthetic text test (5 WPM) ---
+Model loaded from checkpoints/best_model.pt
+Synthesizing: 'SOS'
+Target : SOS
+Decoded: HEOE
+
+--- Synthetic text test (35 WPM) ---
+Model loaded from checkpoints/best_model.pt
+Synthesizing: 'CQ CQ DE W1AW'
+Target : CQ CQ DE W1AW
+Decoded: COY C 
+
+Phase 1 complete. Results saved to training/test_results.txt

@@ -1,0 +1,330 @@
+{
+  "kaggle_labeled": [
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw154.wav",
+      "transcript": "GENERATOR. VFO OVERVIEW MY EICO 723 TRANSMITTER HAS A SPECIAL INPUT FOR AN"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw029.wav",
+      "transcript": "K1MS/B FN42 K1MS/B FN42"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw005.wav",
+      "transcript": "WC2K WHO IS ONE OF THE OWNERS I THINK IS IN A GROUP IM IN ON 75 SSB"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw175.wav",
+      "transcript": "RECOMMENDS 10 20 V AT THE VFO INPUT. THE SYNTHESIZER OUTPUT HOWEVER"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw057.wav",
+      "transcript": "TRANSMITTERS FROM THE 50S AND 60S REQUIRE SEVERAL VOLTS PEAK TO PEAK P P OF"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw050.wav",
+      "transcript": "RR JIM CO N4BP W8FW W9RE BOB FL TU N4BP # N1 # N1AM BOB FL TU N4BP W7FW #7 W7FW W7FW BOB FL TNX AD AZ ? AD NAME? AD AZ TU N4BP"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw047.wav",
+      "transcript": "OK HOWARD TNX FOR SHOP NGUP AND I THINK I CAN BE AROUND TMW 73 FOR NOW WA1CFX DE WR1C K"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw034.wav",
+      "transcript": "THEN I D BOUGHT ONE OF THE FIRST KNWD TS580S"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw191.wav",
+      "transcript": "GENERATOR. VFO OVERVIEW MY EICO 727 TRANSMITTER HAS A SPECIAL INPUT FOR AN"
+    },
+    {
+      "path": "data/kaggle_mlmv2\\audio\\cw025.wav",
+      "transcript": "IK QSL CARL ES UR SIG UP NOW 599 HI 73 DE K0SKC EE 73 EE"
+    }
+  ],
+  "arrl_sources": [
+    "160831_15wpm",
+    "220308_20wpm"
+  ],
+  "arrl_labeled": [
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0000.npy",
+      "text": "NOW 15 WPM",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0001.npy",
+      "text": "TEXT IS FROM",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0003.npy",
+      "text": "QST PAGE 68",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0004.npy",
+      "text": "SWR TO 1R3.",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0007.npy",
+      "text": "FIELD DAY IS",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0008.npy",
+      "text": "OVER AND ITS TIME",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0009.npy",
+      "text": "TO BREAK DOWN.",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0010.npy",
+      "text": "IT ALL GOES SMOOTHLY",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0011.npy",
+      "text": "UNTIL YOU GET",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0012.npy",
+      "text": "TO THE GROUND",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0013.npy",
+      "text": "ROD. IT WAS",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0014.npy",
+      "text": "HARD TO DRIVE",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0015.npy",
+      "text": "INTO THE GROUND,",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0016.npy",
+      "text": "SO NOW HOW",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0017.npy",
+      "text": "DO YOU GET IT",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0018.npy",
+      "text": "OUT? IF YOU",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0019.npy",
+      "text": "HAVE A SHORT",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0020.npy",
+      "text": "LENGTH OF CHAIN,",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0021.npy",
+      "text": "A PAIR OF LOCKING",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0023.npy",
+      "text": "A JACK, THERE",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0024.npy",
+      "text": "IS A NEAT TRICK",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0025.npy",
+      "text": "TO PULL THAT",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0026.npy",
+      "text": "ROD OUT OF",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0028.npy",
+      "text": "USE THE LOCKING",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0029.npy",
+      "text": "PLIERS TO SECURE",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0030.npy",
+      "text": "THE FIRST LINK",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0031.npy",
+      "text": "TO THE GROUND",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0032.npy",
+      "text": "ROD SEE FIGURE",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0033.npy",
+      "text": "9. WRAP THE",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0034.npy",
+      "text": "CHAIN LINK AROUND",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0035.npy",
+      "text": "THE ROD, ARRANGING",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0036.npy",
+      "text": "EACH LINK SO",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0037.npy",
+      "text": "IT LIES FLAT AGAINST",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0038.npy",
+      "text": "THE ROD. AFTER",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\160831_15wpm_0039.npy",
+      "text": "END OF 15 WPM",
+      "source_key": "160831_15wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0000.npy",
+      "text": "AT 100 KHZ, OR MORE,",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0001.npy",
+      "text": "AWAY FROM THE TRANSMITTED SIGNAL. THIS MAY BE OKAY FOR",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0002.npy",
+      "text": "LOW POWER, BUT PERHAPS NOT",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0003.npy",
+      "text": "IF USED WITH A HIGH POWER RF AMPLIFIER",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0005.npy",
+      "text": "ARE STRONG. TRANSMIT PHASE",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0010.npy",
+      "text": "UHF FREQUENCIES, WHERE",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0011.npy",
+      "text": "RECEIVER NOISE FLOORS ARE",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0013.npy",
+      "text": "THE CW KEYING CHARACTERISTICS OF THE IC 705 ARE",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0015.npy",
+      "text": "ALL IN ALL, THE IC",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0016.npy",
+      "text": "705 IS A GOOD",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0020.npy",
+      "text": "THE DIAL. TIONS, SUCH AS",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0021.npy",
+      "text": "STREAMING GPS INFORMATION TO YOUR COMPUTER. I HAD A",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0023.npy",
+      "text": "THE IC 705 WITH",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0027.npy",
+      "text": "THE FT8 AND FT4 MODES. HOWEVER, WHEN THIS REVIEW",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0033.npy",
+      "text": "INCLUDE THE 705",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0034.npy",
+      "text": "IN ITS LIST OF CAT",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0037.npy",
+      "text": "IS TO GO INTO THE",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0038.npy",
+      "text": "IC 705S CI V MENUS",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0039.npy",
+      "text": "AND CHANGE THE CI",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0040.npy",
+      "text": "V ADDRESS FROM THE",
+      "source_key": "220308_20wpm"
+    },
+    {
+      "npy": "data/arrl_labeled\\220308_20wpm_0041.npy",
+      "text": "DEFAULT A4H TO 94H.",
+      "source_key": "220308_20wpm"
+    }
+  ]
+}

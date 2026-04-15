@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-03-25T17:36:50.572800",
+  "checkpoint": "checkpoints/best_model.pt",
+  "normalize_wpm": true,
+  "arrl_manifest": "benchmark/source_benchmark.json",
+  "arrl_fold": "all",
+  "decoder": "lm",
+  "kaggle_cer": 0.5153,
+  "kaggle_wer": 0.7938,
+  "arrl_folds": [
+    {
+      "cer": 0.3202,
+      "wer": 0.4381,
+      "num_items": 102,
+      "name": "fold_1",
+      "num_sources": 3
+    },
+    {
+      "cer": 0.3048,
+      "wer": 0.4301,
+      "num_items": 99,
+      "name": "fold_2",
+      "num_sources": 3
+    },
+    {
+      "cer": 0.2694,
+      "wer": 0.3917,
+      "num_items": 104,
+      "name": "fold_3",
+      "num_sources": 3
+    },
+    {
+      "cer": 0.3115,
+      "wer": 0.44,
+      "num_items": 103,
+      "name": "fold_4",
+      "num_sources": 3
+    },
+    {
+      "cer": 0.4074,
+      "wer": 0.5535,
+      "num_items": 99,
+      "name": "fold_5",
+      "num_sources": 3
+    }
+  ],
+  "arrl_cer": 0.322,
+  "arrl_wer": 0.4499,
+  "kaggle_v1_cer": 0.4966,
+  "kaggle_v1_wer": 2.7759,
+  "overall_cer": 0.343
+}
